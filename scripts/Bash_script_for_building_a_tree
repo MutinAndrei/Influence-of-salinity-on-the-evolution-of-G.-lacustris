@@ -1,0 +1,6 @@
+##Cycle mafft alignment
+for x in *.fasta; do mafft $x > $x.aln; done
+###Trim alignment cycle
+for x in *.aln; do /path/to/trimal -in $x -out $x.trim -automated1; done
+##building a tree
+iqtree2 -p iqtree_table_salt/ -p example.nex -B 1000
