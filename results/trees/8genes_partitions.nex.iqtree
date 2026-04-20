@@ -1,0 +1,701 @@
+IQ-TREE 2.0.7 built Jan 21 2022
+
+Partition file name: example.nex
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 271699
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 148 taxa with 8 partitions and 6118 total sites (48.3305% missing data)
+
+  ID  Name                                         Type	Seq	Site	Unique	Infor	Invar	Const
+   1  AK_lacustris_HOU_table_salt.fa.aln.trim      DNA	35	676	159	27	599	599
+   2  COIII_lacustris_HOU_table_salt.fa.aln.trim   DNA	52	519	244	199	291	291
+   3  COI_lacustris_HOU_table_salt.fa.aln.trim     DNA	128	1213	847	598	305	305
+   4  EF1a_lacustris_HOU_table_salt.fa.aln.trim    DNA	39	547	120	32	491	491
+   5  HSP70_lacustris_HOU_table_salt.fa.aln.trim   DNA	29	420	74	15	392	392
+   6  PEPCK_lacustris_HOU_table_salt.fa.aln.trim   DNA	39	559	120	37	478	478
+   7  S12_16_lacustris_HOU_table_salt.fa.aln.trim  DNA	74	944	574	410	268	268
+   8  S28_lacustris_HOU_table_salt.fa.aln.trim     DNA	95	1240	188	93	1082	1082
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  GTR+F+I+G4     0.0966  GTR{2.96666,3.76734,2.87382,0.335208,13.5345}+F{0.214164,0.323511,0.25524,0.207085}+I{0.501569}+G4{1.82472}
+   2  GTR+F+I+G4     1.9262  GTR{1.24521,10.5434,0.974327,0.809459,6.73871}+F{0.256622,0.253439,0.164863,0.325075}+I{0.521857}+G4{1.37272}
+   3  GTR+F+I+G4     2.0761  GTR{1.56197,11.6952,1.22166,1.14271,8.98672}+F{0.236655,0.217581,0.2058,0.339964}+I{1.74171e-06}+G4{0.351451}
+   4  GTR+F+I+G4     0.0896  GTR{0.79524,14.6603,1.40383,0.929378,21.3715}+F{0.26581,0.243375,0.268133,0.222683}+I{0.54012}+G4{0.020028}
+   5  GTR+F+I+G4     0.1925  GTR{1.45278,4.92268,3.04431,1.0677,6.87158}+F{0.267076,0.239521,0.272969,0.220434}+I{0.720847}+G4{0.0200396}
+   6  GTR+F+I+G4     0.1575  GTR{1.02693,2.65619,0.86621,0.570801,5.84788}+F{0.262265,0.243511,0.245962,0.248261}+I{0.541777}+G4{0.650179}
+   7  GTR+F+I+G4     2.3158  GTR{0.670086,4.06409,0.532397,1.29039,7.47901}+F{0.339913,0.110529,0.21559,0.333968}+I{0.00235822}+G4{0.483069}
+   8  SYM+I+G4       0.1054  SYM{0.317857,2.55519,0.992766,0.23054,3.96156}+FQ+I{0.782898}+G4{0.356575}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -46654.6199 (s.e. 922.2094)
+Unconstrained log-likelihood (without tree): -26745.1499
+Number of free parameters (#branches + #model parameters): 365
+Akaike information criterion (AIC) score: 94039.2398
+Corrected Akaike information criterion (AICc) score: 94085.6897
+Bayesian information criterion (BIC) score: 96491.6713
+
+Total tree length (sum of branch lengths): 21.5763
+Sum of internal branch lengths: 11.1391 (51.6264% of tree length)
+
+WARNING: 26 near-zero internal branches (<0.0002) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+WARNING: 1 too long branches (>9.8000) should be treated with caution!
+NOTE: Tree is UNROOTED although outgroup taxon 'SLOCHN001_fresh_MOTU1_EUG-1' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--SLOCHN001_fresh_MOTU1_EUG-1
+|
+|              +--IZCASIA1686_brakish_MOTU16_HIG
+|           +--| (100)
+|           |  |     +--IZCASIA1952_fresh_MOTU14_HIG
+|           |  |  +--| (100)
+|           |  |  |  +--SLOCHN342_salty_MOTU15_HIG
+|           |  +--| (100)
+|           |     +--IZCASIA1259_brackish_MOTU13_HIG
+|        +--| (100)
+|        |  |  +--IZCASIA1087_fresh_MOTU11_HIG
+|        |  +--| (100)
+|        |     +--IZCASIA2906_fresh_MOTU12_HIG
+|     +--| (96)
+|     |  |              +--SLOCHN101_fresh_MOTU17_TSG-2
+|     |  |           +--| (93)
+|     |  |           |  +--10_fresh_MOTU21_TSG-2
+|     |  |        +--| (88)
+|     |  |        |  +--SLOCHN370_brekish_MOTU20_TSG-2
+|     |  |     +--| (82)
+|     |  |     |  |     +**IZCASIA1810_fresh_MOTU18_TSG-2
+|     |  |     |  |  +--| (98)
+|     |  |     |  |  |  +**19_fresh_MOTU49_NTG
+|     |  |     |  +--| (86)
+|     |  |     |     +--SLOCHN377_fresh_MOTU19_TSG-2
+|     |  |  +--| (79)
+|     |  |  |  |        +--IZCASIA1189_fresh_MOTU22_NAG
+|     |  |  |  |     +--| (80)
+|     |  |  |  |     |  |              +--SLOCHN490_fresh_MOTU25_NAG
+|     |  |  |  |     |  |           +--| (93)
+|     |  |  |  |     |  |           |  |     +--26_brekish_MOTU27_NAG
+|     |  |  |  |     |  |           |  |  +**| (90)
+|     |  |  |  |     |  |           |  |  |  +--28_fresh_MOTU30_NAG
+|     |  |  |  |     |  |           |  +**| (85)
+|     |  |  |  |     |  |           |     |     +--27_brekish_MOTU28_NAG
+|     |  |  |  |     |  |           |     |  +--| (100)
+|     |  |  |  |     |  |           |     |  |  +**30_fresh_MOTU32_NAG
+|     |  |  |  |     |  |           |     +--| (100)
+|     |  |  |  |     |  |           |        +--29_fresh_MOTU31_NAG
+|     |  |  |  |     |  |        +--| (93)
+|     |  |  |  |     |  |        |  +--SLOCHN359_fresh_MOTU35_TSG-3
+|     |  |  |  |     |  |     +--| (94)
+|     |  |  |  |     |  |     |  +--11_fresh_MOTU26_NAG
+|     |  |  |  |     |  |  +--| (94)
+|     |  |  |  |     |  |  |  |     +--13_brekish_MOTU28_NAG
+|     |  |  |  |     |  |  |  |  +--| (96)
+|     |  |  |  |     |  |  |  |  |  +--16_fresh_MOTU32_NAG
+|     |  |  |  |     |  |  |  +--| (99)
+|     |  |  |  |     |  |  |     +--15_fresh_MOTU31_NAG
+|     |  |  |  |     |  +--| (82)
+|     |  |  |  |     |     |  +--12_brekish_MOTU27_NAG
+|     |  |  |  |     |     +**| (88)
+|     |  |  |  |     |        +--14_fresh_MOTU30_NAG
+|     |  |  |  |  +--| (76)
+|     |  |  |  |  |  |     +--IZCASIA1389_fresh_MOTU24_NAG
+|     |  |  |  |  |  |  +**| (38)
+|     |  |  |  |  |  |  |  +--25_fresh_MOTU26_NAG
+|     |  |  |  |  |  +**| (32)
+|     |  |  |  |  |     +--31_fresh_MOTU43_EAG
+|     |  |  |  +--| (88)
+|     |  |  |     |  +--IZCASIA1344_fresh_MOTU33_TSG-3
+|     |  |  |     +--| (99)
+|     |  |  |        +--17_fresh_MOTU34_TSG-3
+|     |  +--| (97)
+|     |     |              +**IZCASIA1196_fresh_MOTU38_EAG
+|     |     |           +--| (79)
+|     |     |           |  |        +--IZCASIA0436a_fresh_MOTU55_NTG
+|     |     |           |  |     +--| (92)
+|     |     |           |  |     |  |  +**Bormashovoe_salty_Gammarus_lacustris_COI
+|     |     |           |  |     |  +**| (97)
+|     |     |           |  |     |     +**Maloe_2_consensus
+|     |     |           |  |  +**| (88)
+|     |     |           |  |  |  +**Maloe_1_consensus
+|     |     |           |  +--| (94)
+|     |     |           |     +**Maloe_3
+|     |     |        +**| (20)
+|     |     |        |  +--18_fresh_MOTU43_EAG
+|     |     |     +--| (42)
+|     |     |     |  |  +--IZCASIA1356_fresh_MOTU37_EAG
+|     |     |     |  +--| (90)
+|     |     |     |     |     +**IZCASIA2924_brackish_MOTU39_EAG
+|     |     |     |     |  +--| (100)
+|     |     |     |     |  |  +**IZCASIA2924_brackish_MOTU40_EAG
+|     |     |     |     +--| (92)
+|     |     |     |        +--IZCASIA1104_brackish_MOTU41_EAG
+|     |     |  +--| (78)
+|     |     |  |  |                 +**IZCASIA0696a_brackish_MOTU42_EAG
+|     |     |  |  |              +**| (85)
+|     |     |  |  |              |  |           +**NuhuNur_brackish_Gammarus_lacustris_COI
+|     |     |  |  |              |  |        +**| (36)
+|     |     |  |  |              |  |        |  +**NamishNur_4
+|     |     |  |  |              |  |     +**| (25)
+|     |     |  |  |              |  |     |  +**NamishNur_brackish_Gammarus_lacustris_COI
+|     |     |  |  |              |  |  +**| (38)
+|     |     |  |  |              |  |  |  |  +**Angara_2_consensus
+|     |     |  |  |              |  |  |  +**| (63)
+|     |     |  |  |              |  |  |     +**NamishNur_1
+|     |     |  |  |              |  +--| (95)
+|     |     |  |  |              |     |     +**MK887756_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K12
+|     |     |  |  |              |     |  +**| (34)
+|     |     |  |  |              |     |  |  |  +**MK887757_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K14
+|     |     |  |  |              |     |  |  +**| (15)
+|     |     |  |  |              |     |  |     |  +--MK887762_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K19
+|     |     |  |  |              |     |  |     +**| (27)
+|     |     |  |  |              |     |  |        |  +**NuhuNur_1_consensus
+|     |     |  |  |              |     |  |        +--| (100)
+|     |     |  |  |              |     |  |           +**NuhuNur_3
+|     |     |  |  |              |     +**| (74)
+|     |     |  |  |              |        |  +--NuhuNur_2
+|     |     |  |  |              |        +--| (77)
+|     |     |  |  |              |           |  +**NamishNur_2
+|     |     |  |  |              |           +**| (96)
+|     |     |  |  |              |              +**NamishNur_3
+|     |     |  |  |           +**| (32)
+|     |     |  |  |           |  +**2_fresh_MOTU30_NAG
+|     |     |  |  |        +--| (89)
+|     |     |  |  |        |  +**1_brekish_MOTU27_NAG
+|     |     |  |  |     +--| (70)
+|     |     |  |  |     |  |  +--IZCASIA1669_salty_MOTU56_TSG-4
+|     |     |  |  |     |  +--| (95)
+|     |     |  |  |     |     |                       +--IZCASIA2796_salty_MOTU63_STG
+|     |     |  |  |     |     |                    +--| (100)
+|     |     |  |  |     |     |                    |  +--IZCASIA2802_brackish_MOTU65_STG
+|     |     |  |  |     |     |                 +--| (100)
+|     |     |  |  |     |     |                 |  +--IZCASIA2800_salty_MOTU64_STG
+|     |     |  |  |     |     |              +--| (97)
+|     |     |  |  |     |     |              |  +--IZCASIA2905_salty_MOTU66_STG
+|     |     |  |  |     |     |           +--| (80)
+|     |     |  |  |     |     |           |  +--IZCASIA2794_fresh_MOTU67_STG
+|     |     |  |  |     |     |        +--| (31)
+|     |     |  |  |     |     |        |  |                    +--IZCASIA1336_fresh_MOTU69_STG
+|     |     |  |  |     |     |        |  |                 +--| (94)
+|     |     |  |  |     |     |        |  |                 |  +--IZCASIA1051_fresh_MOTU70_STG
+|     |     |  |  |     |     |        |  |              +**| (79)
+|     |     |  |  |     |     |        |  |              |  |  +--IZCASIA1109_fresh_MOTU71_STG
+|     |     |  |  |     |     |        |  |              |  +--| (97)
+|     |     |  |  |     |     |        |  |              |     +--IZCASIA0572_fresh_MOTU72_STG
+|     |     |  |  |     |     |        |  |           +--| (39)
+|     |     |  |  |     |     |        |  |           |  +-------------------------SLOCHN249_fresh_MOTU9_TSG-1
+|     |     |  |  |     |     |        |  |        +--| (49)
+|     |     |  |  |     |     |        |  |        |  +**IZCASIA1167_fresh_MOTU73_STG
+|     |     |  |  |     |     |        |  |     +--| (52)
+|     |     |  |  |     |     |        |  |     |  |     +--IZCASIA1335_fresh_MOTU74_STG
+|     |     |  |  |     |     |        |  |     |  |  +--| (76)
+|     |     |  |  |     |     |        |  |     |  |  |  |  +--IZCASIA1071_fresh_MOTU75_STG
+|     |     |  |  |     |     |        |  |     |  |  |  +--| (60)
+|     |     |  |  |     |     |        |  |     |  |  |     |  +--IZCASIA1072_fresh_MOTU76_STG
+|     |     |  |  |     |     |        |  |     |  |  |     +**| (24)
+|     |     |  |  |     |     |        |  |     |  |  |        |                                                            +--20_fresh_MOTU81_STG
+|     |     |  |  |     |     |        |  |     |  |  |        |                                                         +--| (93)
+|     |     |  |  |     |     |        |  |     |  |  |        |                                                         |  |  +**21_fresh_MOTU92_EUG-2
+|     |     |  |  |     |     |        |  |     |  |  |        |                                                         |  +--| (95)
+|     |     |  |  |     |     |        |  |     |  |  |        |                                                         |     +--22_fresh_MOTU93_EUG-2
+|     |     |  |  |     |     |        |  |     |  |  |        +---------------------------------------------------------| (100)
+|     |     |  |  |     |     |        |  |     |  |  |                                                                  +--23_fresh_MOTU95_TSG-5
+|     |     |  |  |     |     |        |  |     |  +--| (50)
+|     |     |  |  |     |     |        |  |     |     |  +--IZCASIA1073_fresh_MOTU78_STG
+|     |     |  |  |     |     |        |  |     |     +--| (100)
+|     |     |  |  |     |     |        |  |     |        +--IZCASIA1111_fresh_MOTU77_STG
+|     |     |  |  |     |     |        |  |  +--| (19)
+|     |     |  |  |     |     |        |  |  |  |     +--SLOCHN168_salty_MOTU85_EUG-2
+|     |     |  |  |     |     |        |  |  |  |  +--| (67)
+|     |     |  |  |     |     |        |  |  |  |  |  +--SLOCHN235_fresh_MOTU91_EUG-2
+|     |     |  |  |     |     |        |  |  |  +--| (19)
+|     |     |  |  |     |     |        |  |  |     |              +--SLOCHN234_fresh_MOTU94_TSG-5
+|     |     |  |  |     |     |        |  |  |     |           +--| (86)
+|     |     |  |  |     |     |        |  |  |     |           |  +--SLOCHNTAD4_fresh_MOTU100_TSG-5
+|     |     |  |  |     |     |        |  |  |     |        +--| (87)
+|     |     |  |  |     |     |        |  |  |     |        |  +--SLOCHN170_salty_MOTU86_EUG-2
+|     |     |  |  |     |     |        |  |  |     |     +--| (77)
+|     |     |  |  |     |     |        |  |  |     |     |  |                    +--IZCASIA1347_salty_MOTU101_TSG-5
+|     |     |  |  |     |     |        |  |  |     |     |  |                 +--| (97)
+|     |     |  |  |     |     |        |  |  |     |     |  |                 |  +--IZCASIA1981_fresh_MOTU102_TSG-5
+|     |     |  |  |     |     |        |  |  |     |     |  |              +--| (97)
+|     |     |  |  |     |     |        |  |  |     |     |  |              |  |           +--IZCASIA1384_brackish_MOTU103_TSG-5
+|     |     |  |  |     |     |        |  |  |     |     |  |              |  |        +**| (53)
+|     |     |  |  |     |     |        |  |  |     |     |  |              |  |        |  +--------------Angara_1_consensus
+|     |     |  |  |     |     |        |  |  |     |     |  |              |  |     +--| (91)
+|     |     |  |  |     |     |        |  |  |     |     |  |              |  |     |  +--IZCASIA1386_brackish_MOTU104_TSG-5
+|     |     |  |  |     |     |        |  |  |     |     |  |              |  |  +--| (75)
+|     |     |  |  |     |     |        |  |  |     |     |  |              |  |  |  +--SLOCHN371_fresh_MOTU105_TSG-5
+|     |     |  |  |     |     |        |  |  |     |     |  |              |  +--| (97)
+|     |     |  |  |     |     |        |  |  |     |     |  |              |     +--IZCASIA0432_brackish_MOTU106_TSG-5
+|     |     |  |  |     |     |        |  |  |     |     |  |           +--| (96)
+|     |     |  |  |     |     |        |  |  |     |     |  |           |  +--SLOCHN360_fresh_MOTU107_TSG-5
+|     |     |  |  |     |     |        |  |  |     |     |  |        +--| (95)
+|     |     |  |  |     |     |        |  |  |     |     |  |        |  +--SLOCHN257_fresh_MOTU108_TSG-5
+|     |     |  |  |     |     |        |  |  |     |     |  |     +--| (88)
+|     |     |  |  |     |     |        |  |  |     |     |  |     |  +--SLOCHN350_fresh_MOTU117_TSG-5
+|     |     |  |  |     |     |        |  |  |     |     |  |  +--| (91)
+|     |     |  |  |     |     |        |  |  |     |     |  |  |  |                 +--SLOCHN198_fresh_MOTU111_TSG-5
+|     |     |  |  |     |     |        |  |  |     |     |  |  |  |              +--| (100)
+|     |     |  |  |     |     |        |  |  |     |     |  |  |  |              |  +--IZCASIA2008_brackish_MOTU112_TSG-5
+|     |     |  |  |     |     |        |  |  |     |     |  |  |  |           +--| (100)
+|     |     |  |  |     |     |        |  |  |     |     |  |  |  |           |  |  +--IZCASIA1996_fresh_MOTU113_TSG-5
+|     |     |  |  |     |     |        |  |  |     |     |  |  |  |           |  +--| (100)
+|     |     |  |  |     |     |        |  |  |     |     |  |  |  |           |     +--IZCASIA2018_fresh_MOTU114_TSG-5
+|     |     |  |  |     |     |        |  |  |     |     |  |  |  |        +--| (90)
+|     |     |  |  |     |     |        |  |  |     |     |  |  |  |        |  +--IZCASIA2010_fresh_MOTU118_TSG-5
+|     |     |  |  |     |     |        |  |  |     |     |  |  |  |     +--| (92)
+|     |     |  |  |     |     |        |  |  |     |     |  |  |  |     |  +--SLOCHNTAD2_fresh_MOTU115_TSG-5
+|     |     |  |  |     |     |        |  |  |     |     |  |  |  |  +--| (96)
+|     |     |  |  |     |     |        |  |  |     |     |  |  |  |  |  +--IZCASIA2011_brackish_MOTU116_TSG-5
+|     |     |  |  |     |     |        |  |  |     |     |  |  |  +--| (97)
+|     |     |  |  |     |     |        |  |  |     |     |  |  |     +--IZCASIA2001_brackish_MOTU119_TSG-5
+|     |     |  |  |     |     |        |  |  |     |     |  +--| (95)
+|     |     |  |  |     |     |        |  |  |     |     |     |  +--SLOCHN174_fresh_MOTU109_TSG-5
+|     |     |  |  |     |     |        |  |  |     |     |     +--| (100)
+|     |     |  |  |     |     |        |  |  |     |     |        +--SLOCHN420_fresh_MOTU110_TSG-5
+|     |     |  |  |     |     |        |  |  |     |  +--| (41)
+|     |     |  |  |     |     |        |  |  |     |  |  |     +--IZCASIA0693A_fresh_MOTU99_TSG-5
+|     |     |  |  |     |     |        |  |  |     |  |  |  +--| (94)
+|     |     |  |  |     |     |        |  |  |     |  |  |  |  |  +--SLOCHNN2TUM_fresh_MOTU96_TSG-5
+|     |     |  |  |     |     |        |  |  |     |  |  |  |  +--| (100)
+|     |     |  |  |     |     |        |  |  |     |  |  |  |     +--SLOCHN515_fresh_MOTU97_TSG-5
+|     |     |  |  |     |     |        |  |  |     |  |  +--| (42)
+|     |     |  |  |     |     |        |  |  |     |  |     |  +--SLOCHN236_fresh_MOTU61_TSG-4
+|     |     |  |  |     |     |        |  |  |     |  |     +--| (57)
+|     |     |  |  |     |     |        |  |  |     |  |        +--SLOCHN161_fresh_MOTU84_EUG-2
+|     |     |  |  |     |     |        |  |  |     +--| (46)
+|     |     |  |  |     |     |        |  |  |        +--SLOCHN075_fresh_MOTU83_EUG-2
+|     |     |  |  |     |     |        |  +--| (22)
+|     |     |  |  |     |     |        |     |     +--SLOCHN345_brackish_MOTU80_STG
+|     |     |  |  |     |     |        |     |  +--| (100)
+|     |     |  |  |     |     |        |     |  |  +--3_fresh_MOTU81_STG
+|     |     |  |  |     |     |        |     +--| (60)
+|     |     |  |  |     |     |        |        |  +--SLOCHN442_fresh_MOTU87_EUG-2
+|     |     |  |  |     |     |        |        +--| (88)
+|     |     |  |  |     |     |        |           +--SLOCHN343_fresh_MOTU98_TSG-5
+|     |     |  |  |     |     |     +--| (94)
+|     |     |  |  |     |     |     |  |     +--SLOCHN363_fresh_MOTU60_TSG-4
+|     |     |  |  |     |     |     |  |  +--| (100)
+|     |     |  |  |     |     |     |  |  |  |  +--SLOCHN364_brackish_MOTU58_TSG-4
+|     |     |  |  |     |     |     |  |  |  +--| (100)
+|     |     |  |  |     |     |     |  |  |     +--SLOCHN368_fresh_MOTU59_TSG-4
+|     |     |  |  |     |     |     |  +**| (21)
+|     |     |  |  |     |     |     |     +--SLOCHN351_salty_MOTU90_EUG-2
+|     |     |  |  |     |     |  +--| (96)
+|     |     |  |  |     |     |  |  +--IZCASIA0426_fresh_MOTU57_TSG-4
+|     |     |  |  |     |     +--| (95)
+|     |     |  |  |     |        +--IZCASIA1260_salty_MOTU23_NAG
+|     |     |  |  |  +**| (54)
+|     |     |  |  |  |  +--IZCASIA1635_brackish_MOTU52_NTG
+|     |     |  |  +--| (29)
+|     |     |  |     |                 +--IZCASIA1670_brackish_MOTU45_NTG
+|     |     |  |     |              +--| (93)
+|     |     |  |     |              |  +--IZCASIA0871_brackish_MOTU50_NTG
+|     |     |  |     |           +--| (92)
+|     |     |  |     |           |  |     +--IZCASIA1671_salty_MOTU47_NTG
+|     |     |  |     |           |  |  +--| (98)
+|     |     |  |     |           |  |  |  |  +--IZCASIA1699_brackish_MOTU48_NTG
+|     |     |  |     |           |  |  |  +--| (100)
+|     |     |  |     |           |  |  |     +**32_fresh_MOTU49_NTG
+|     |     |  |     |           |  +**| (90)
+|     |     |  |     |           |     +--IZCASIA1933_fresh_MOTU51_NTG
+|     |     |  |     |        +--| (92)
+|     |     |  |     |        |  +--IZCASIA0968_salty_MOTU46_NTG
+|     |     |  |     |     +--| (94)
+|     |     |  |     |     |  +--IZCASIA0430_brackish_MOTU44_NTG
+|     |     |  |     |  +--| (58)
+|     |     |  |     |  |  |  +--IZCASIA1639_brackish_MOTU53_NTG
+|     |     |  |     |  |  +--| (83)
+|     |     |  |     |  |     +--IZCASIA0436a_fresh_MOTU54_NTG
+|     |     |  |     +**| (73)
+|     |     |  |        +**Kirenga_fresh_Gammarus_lacustris_COI
+|     |     +--| (78)
+|     |        +--SLOCHN372_fresh_MOTU36_TSG-3
+|  +--| (100)
+|  |  +--SLOCHN375_salty_MOTU10_TSG-1
++--| (100)
+|  |        +--SLOCHN473_fresh_MOTU4_EUG-1
+|  |     +--| (94)
+|  |     |  |  +--5_fresh_MOTU3_EUG-1
+|  |     |  +--| (98)
+|  |     |     +**9_fresh_MOTU8_EUG-1
+|  |  +--| (94)
+|  |  |  +--6_fresh_MOTU5_EUG-1
+|  +--| (94)
+|     |  +--7_fresh_MOTU6_EUG-1
+|     +--| (100)
+|        +--8_fresh_MOTU7_EUG-1
+|
++--4_fresh_MOTU2_EUG-1
+
+Tree in newick format:
+
+(SLOCHN001_fresh_MOTU1_EUG-1:0.0016545874,(((((IZCASIA1686_brakish_MOTU16_HIG:0.0111077763,((IZCASIA1952_fresh_MOTU14_HIG:0.0076046317,SLOCHN342_salty_MOTU15_HIG:0.0073519073)100:0.0005789463,IZCASIA1259_brackish_MOTU13_HIG:0.0066138530)100:0.0033058750)100:0.0045015214,(IZCASIA1087_fresh_MOTU11_HIG:0.0085309976,IZCASIA2906_fresh_MOTU12_HIG:0.0109195946)100:0.0046243013)100:0.0038188535,(((((SLOCHN101_fresh_MOTU17_TSG-2:0.0111212454,10_fresh_MOTU21_TSG-2:0.0007685415)93:0.0027604904,SLOCHN370_brekish_MOTU20_TSG-2:0.0051268900)88:0.0016984706,((IZCASIA1810_fresh_MOTU18_TSG-2:0.0000024467,19_fresh_MOTU49_NTG:0.0000021628)98:0.0068279400,SLOCHN377_fresh_MOTU19_TSG-2:0.0041584529)86:0.0006619983)82:0.0014016422,(((IZCASIA1189_fresh_MOTU22_NAG:0.0036702060,(((((SLOCHN490_fresh_MOTU25_NAG:0.0015157189,((26_brekish_MOTU27_NAG:0.0019646255,28_fresh_MOTU30_NAG:0.0098292476)90:0.0000025519,((27_brekish_MOTU28_NAG:0.0019326593,30_fresh_MOTU32_NAG:0.0000010603)100:0.0019355174,29_fresh_MOTU31_NAG:0.0019665334)100:0.0038824192)85:0.0000021089)93:0.0014923525,SLOCHN359_fresh_MOTU35_TSG-3:0.0032223702)93:0.0006572757,11_fresh_MOTU26_NAG:0.0031194932)94:0.0003296101,((13_brekish_MOTU28_NAG:0.0112619649,16_fresh_MOTU32_NAG:0.0027549064)96:0.0009434848,15_fresh_MOTU31_NAG:0.0165019423)99:0.0017636054)94:0.0002536537,(12_brekish_MOTU27_NAG:0.0054659245,14_fresh_MOTU30_NAG:0.0008979569)88:0.0000025884)82:0.0005091117)80:0.0002101717,((IZCASIA1389_fresh_MOTU24_NAG:0.0009906488,25_fresh_MOTU26_NAG:0.0038922939)38:0.0000010840,31_fresh_MOTU43_EAG:0.0032365940)32:0.0000014313)76:0.0011624679,(IZCASIA1344_fresh_MOTU33_TSG-3:0.0037876542,17_fresh_MOTU34_TSG-3:0.0009191112)99:0.0028391065)88:0.0008384459)79:0.0006515428,(((((IZCASIA1196_fresh_MOTU38_EAG:0.0000025361,(((IZCASIA0436a_fresh_MOTU55_NTG:0.6503309571,(Bormashovoe_salty_Gammarus_lacustris_COI:0.0000027949,Maloe_2_consensus:0.0000010603)97:0.0000022234)92:0.0010809453,Maloe_1_consensus:0.0000021244)88:0.0000020249,Maloe_3:0.0000028585)94:0.0050249851)79:0.0022736103,18_fresh_MOTU43_EAG:0.0055810511)20:0.0000014750,(IZCASIA1356_fresh_MOTU37_EAG:0.0036528816,((IZCASIA2924_brackish_MOTU39_EAG:0.0000010603,IZCASIA2924_brackish_MOTU40_EAG:0.0000010603)100:0.0020962091,IZCASIA1104_brackish_MOTU41_EAG:0.0055395028)92:0.0004255787)90:0.0009458647)42:0.0010658848,((((((IZCASIA0696a_brackish_MOTU42_EAG:0.0000020427,((((NuhuNur_brackish_Gammarus_lacustris_COI:0.0000029892,NamishNur_4:0.0000010603)36:0.0000026614,NamishNur_brackish_Gammarus_lacustris_COI:0.0000010603)25:0.0000025733,(Angara_2_consensus:0.0000010603,NamishNur_1:0.0000010603)63:0.0000026386)38:0.0000029525,((MK887756_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K12:0.0000010603,(MK887757_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K14:0.0000010603,(MK887762_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K19:0.0016571226,(NuhuNur_1_consensus:0.0000010603,NuhuNur_3:0.0000010603)100:0.0017057372)27:0.0000026667)15:0.0000023647)34:0.0000025863,(NuhuNur_2:0.0356799968,(NamishNur_2:0.0000020483,NamishNur_3:0.0000027220)96:0.0000030008)77:0.0010246089)74:0.0000024771)95:0.0016075795)85:0.0000024353,2_fresh_MOTU30_NAG:0.0000023368)32:0.0000022248,1_brekish_MOTU27_NAG:0.0000023769)89:0.0198920721,(IZCASIA1669_salty_MOTU56_TSG-4:0.0156644588,((((((((IZCASIA2796_salty_MOTU63_STG:0.0036432168,IZCASIA2802_brackish_MOTU65_STG:0.0034007989)100:0.0038397051,IZCASIA2800_salty_MOTU64_STG:0.0053708357)100:0.0150169397,IZCASIA2905_salty_MOTU66_STG:0.0189588344)97:0.0141632712,IZCASIA2794_fresh_MOTU67_STG:0.0295589354)80:0.0120527068,(((((((IZCASIA1336_fresh_MOTU69_STG:0.0136822797,IZCASIA1051_fresh_MOTU70_STG:0.0055000888)94:0.0076744294,(IZCASIA1109_fresh_MOTU71_STG:0.0157522009,IZCASIA0572_fresh_MOTU72_STG:0.0082081493)97:0.0019165587)79:0.0000697437,SLOCHN249_fresh_MOTU9_TSG-1:4.4893950365)39:0.0115297359,IZCASIA1167_fresh_MOTU73_STG:0.0000021824)49:0.0284993403,((IZCASIA1335_fresh_MOTU74_STG:0.0085487533,(IZCASIA1071_fresh_MOTU75_STG:0.0058185978,(IZCASIA1072_fresh_MOTU76_STG:0.0065177707,((20_fresh_MOTU81_STG:0.0691299196,(21_fresh_MOTU92_EUG-2:0.0000026044,22_fresh_MOTU93_EUG-2:0.0013592707)95:0.0536775725)93:0.1058504400,23_fresh_MOTU95_TSG-5:0.0133233298)100:10.0246852400)24:0.0000049245)60:0.0043396639)76:0.0533724839,(IZCASIA1073_fresh_MOTU78_STG:0.0062537739,IZCASIA1111_fresh_MOTU77_STG:0.0064676991)100:0.0404768723)50:0.0054658244)52:0.0078353252,((SLOCHN168_salty_MOTU85_EUG-2:0.0647390751,SLOCHN235_fresh_MOTU91_EUG-2:0.0822095899)67:0.0048454134,(((((SLOCHN234_fresh_MOTU94_TSG-5:0.0833619727,SLOCHNTAD4_fresh_MOTU100_TSG-5:0.0762875979)86:0.0027559101,SLOCHN170_salty_MOTU86_EUG-2:0.1079761404)87:0.0024481176,(((((((IZCASIA1347_salty_MOTU101_TSG-5:0.0770527551,IZCASIA1981_fresh_MOTU102_TSG-5:0.1027228421)97:0.0190451568,((((IZCASIA1384_brackish_MOTU103_TSG-5:0.0066551103,Angara_1_consensus:2.6466913506)53:0.0001557573,IZCASIA1386_brackish_MOTU104_TSG-5:0.0076302942)91:0.0176411545,SLOCHN371_fresh_MOTU105_TSG-5:0.0177751952)75:0.0068566852,IZCASIA0432_brackish_MOTU106_TSG-5:0.0274135903)97:0.0504073164)97:0.0410368669,SLOCHN360_fresh_MOTU107_TSG-5:0.0947648129)96:0.0131503093,SLOCHN257_fresh_MOTU108_TSG-5:0.1249096739)95:0.0214495836,SLOCHN350_fresh_MOTU117_TSG-5:0.0495623117)88:0.0041071765,((((((SLOCHN198_fresh_MOTU111_TSG-5:0.0187120995,IZCASIA2008_brackish_MOTU112_TSG-5:0.0158046496)100:0.0263791536,(IZCASIA1996_fresh_MOTU113_TSG-5:0.0282050640,IZCASIA2018_fresh_MOTU114_TSG-5:0.0193441374)100:0.0161536663)100:0.0263988104,IZCASIA2010_fresh_MOTU118_TSG-5:0.0922847927)90:0.0060759451,SLOCHNTAD2_fresh_MOTU115_TSG-5:0.1125742953)92:0.0053019773,IZCASIA2011_brackish_MOTU116_TSG-5:0.0791862369)96:0.0082195870,IZCASIA2001_brackish_MOTU119_TSG-5:0.1052985593)97:0.0239753370)91:0.0039543833,(SLOCHN174_fresh_MOTU109_TSG-5:0.0590599128,SLOCHN420_fresh_MOTU110_TSG-5:0.0489278741)100:0.0653072397)95:0.0218206899)77:0.0018063630,((IZCASIA0693A_fresh_MOTU99_TSG-5:0.0550516868,(SLOCHNN2TUM_fresh_MOTU96_TSG-5:0.0571201490,SLOCHN515_fresh_MOTU97_TSG-5:0.0342099227)100:0.0209422361)94:0.0076955632,(SLOCHN236_fresh_MOTU61_TSG-4:0.0743883391,SLOCHN161_fresh_MOTU84_EUG-2:0.0618156242)57:0.0135185485)42:0.0022641646)41:0.0025806540,SLOCHN075_fresh_MOTU83_EUG-2:0.0434099949)46:0.0068764261)19:0.0020527680)19:0.0041742265,((SLOCHN345_brackish_MOTU80_STG:0.0098110462,3_fresh_MOTU81_STG:0.0336694005)100:0.0902003850,(SLOCHN442_fresh_MOTU87_EUG-2:0.0415982687,SLOCHN343_fresh_MOTU98_TSG-5:0.0609452865)88:0.0060055423)60:0.0032557738)22:0.0034603369)31:0.0058451673,((SLOCHN363_fresh_MOTU60_TSG-4:0.0011468321,(SLOCHN364_brackish_MOTU58_TSG-4:0.0073929401,SLOCHN368_fresh_MOTU59_TSG-4:0.0050135708)100:0.0038127387)100:0.0369358106,SLOCHN351_salty_MOTU90_EUG-2:0.0810500870)21:0.0000695107)94:0.0086205650,IZCASIA0426_fresh_MOTU57_TSG-4:0.0221822380)96:0.0039789386,IZCASIA1260_salty_MOTU23_NAG:0.0312399033)95:0.0053029012)95:0.0045252530)70:0.0066604329,IZCASIA1635_brackish_MOTU52_NTG:0.0072385914)54:0.0001566780,((((((IZCASIA1670_brackish_MOTU45_NTG:0.0011938514,IZCASIA0871_brackish_MOTU50_NTG:0.0025181325)93:0.0002970638,((IZCASIA1671_salty_MOTU47_NTG:0.0041387311,(IZCASIA1699_brackish_MOTU48_NTG:0.0021237909,32_fresh_MOTU49_NTG:0.0000020367)100:0.0012196034)98:0.0005694896,IZCASIA1933_fresh_MOTU51_NTG:0.0021523627)90:0.0000026282)92:0.0001845359,IZCASIA0968_salty_MOTU46_NTG:0.0051626803)92:0.0011862195,IZCASIA0430_brackish_MOTU44_NTG:0.0018862853)94:0.0013548456,(IZCASIA1639_brackish_MOTU53_NTG:0.0065393038,IZCASIA0436a_fresh_MOTU54_NTG:0.0053106126)83:0.0005902055)58:0.0002223835,Kirenga_fresh_Gammarus_lacustris_COI:0.0000010603)73:0.0000026616)29:0.0003416068)78:0.0015296578,SLOCHN372_fresh_MOTU36_TSG-3:0.0018117681)78:0.0009098018)97:0.0082090097)96:0.0036855599,SLOCHN375_salty_MOTU10_TSG-1:0.0220125774)100:0.0103605488,(((SLOCHN473_fresh_MOTU4_EUG-1:0.0034383630,(5_fresh_MOTU3_EUG-1:0.0018720954,9_fresh_MOTU8_EUG-1:0.0000027431)98:0.0009270122)94:0.0008300042,6_fresh_MOTU5_EUG-1:0.0017543992)94:0.0011097109,(7_fresh_MOTU6_EUG-1:0.0010422092,8_fresh_MOTU7_EUG-1:0.0025000570)100:0.0012730196)94:0.0025088715)100:0.0088654363,4_fresh_MOTU2_EUG-1:0.0037670909);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -46686.755925
+Robinson-Foulds distance between ML tree and consensus tree: 30
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--SLOCHN001_fresh_MOTU1_EUG-1
+|
+|              +--IZCASIA1686_brakish_MOTU16_HIG
+|           +--| (100)
+|           |  |     +--IZCASIA1952_fresh_MOTU14_HIG
+|           |  |  +--| (100)
+|           |  |  |  +--SLOCHN342_salty_MOTU15_HIG
+|           |  +--| (100)
+|           |     +--IZCASIA1259_brackish_MOTU13_HIG
+|        +--| (100)
+|        |  |  +--IZCASIA1087_fresh_MOTU11_HIG
+|        |  +--| (100)
+|        |     +--IZCASIA2906_fresh_MOTU12_HIG
+|     +--| (96)
+|     |  |              +--SLOCHN101_fresh_MOTU17_TSG-2
+|     |  |           +--| (93)
+|     |  |           |  +--10_fresh_MOTU21_TSG-2
+|     |  |        +--| (88)
+|     |  |        |  +--SLOCHN370_brekish_MOTU20_TSG-2
+|     |  |     +--| (82)
+|     |  |     |  |     +--IZCASIA1810_fresh_MOTU18_TSG-2
+|     |  |     |  |  +--| (98)
+|     |  |     |  |  |  +--19_fresh_MOTU49_NTG
+|     |  |     |  +--| (86)
+|     |  |     |     +--SLOCHN377_fresh_MOTU19_TSG-2
+|     |  |  +--| (79)
+|     |  |  |  |        +--IZCASIA1189_fresh_MOTU22_NAG
+|     |  |  |  |     +--| (80)
+|     |  |  |  |     |  |              +--SLOCHN490_fresh_MOTU25_NAG
+|     |  |  |  |     |  |           +--| (93)
+|     |  |  |  |     |  |           |  |     +--26_brekish_MOTU27_NAG
+|     |  |  |  |     |  |           |  |  +--| (90)
+|     |  |  |  |     |  |           |  |  |  +--28_fresh_MOTU30_NAG
+|     |  |  |  |     |  |           |  +--| (85)
+|     |  |  |  |     |  |           |     |     +--27_brekish_MOTU28_NAG
+|     |  |  |  |     |  |           |     |  +--| (100)
+|     |  |  |  |     |  |           |     |  |  +--30_fresh_MOTU32_NAG
+|     |  |  |  |     |  |           |     +--| (100)
+|     |  |  |  |     |  |           |        +--29_fresh_MOTU31_NAG
+|     |  |  |  |     |  |        +--| (93)
+|     |  |  |  |     |  |        |  +--SLOCHN359_fresh_MOTU35_TSG-3
+|     |  |  |  |     |  |     +--| (94)
+|     |  |  |  |     |  |     |  +--11_fresh_MOTU26_NAG
+|     |  |  |  |     |  |  +--| (94)
+|     |  |  |  |     |  |  |  |     +--13_brekish_MOTU28_NAG
+|     |  |  |  |     |  |  |  |  +--| (96)
+|     |  |  |  |     |  |  |  |  |  +--16_fresh_MOTU32_NAG
+|     |  |  |  |     |  |  |  +--| (99)
+|     |  |  |  |     |  |  |     +--15_fresh_MOTU31_NAG
+|     |  |  |  |     |  +--| (82)
+|     |  |  |  |     |     |  +--12_brekish_MOTU27_NAG
+|     |  |  |  |     |     +--| (88)
+|     |  |  |  |     |        +--14_fresh_MOTU30_NAG
+|     |  |  |  |  +--| (76)
+|     |  |  |  |  |  |     +--IZCASIA1389_fresh_MOTU24_NAG
+|     |  |  |  |  |  |  +--| (38)
+|     |  |  |  |  |  |  |  +--25_fresh_MOTU26_NAG
+|     |  |  |  |  |  +--| (32)
+|     |  |  |  |  |     +--31_fresh_MOTU43_EAG
+|     |  |  |  +--| (88)
+|     |  |  |     |  +--IZCASIA1344_fresh_MOTU33_TSG-3
+|     |  |  |     +--| (99)
+|     |  |  |        +--17_fresh_MOTU34_TSG-3
+|     |  +--| (97)
+|     |     |              +--IZCASIA1196_fresh_MOTU38_EAG
+|     |     |           +--| (79)
+|     |     |           |  |        +--IZCASIA0436a_fresh_MOTU55_NTG
+|     |     |           |  |     +--| (92)
+|     |     |           |  |     |  |  +--Bormashovoe_salty_Gammarus_lacustris_COI
+|     |     |           |  |     |  +--| (97)
+|     |     |           |  |     |     +--Maloe_2_consensus
+|     |     |           |  |  +--| (88)
+|     |     |           |  |  |  +--Maloe_1_consensus
+|     |     |           |  +--| (94)
+|     |     |           |     +--Maloe_3
+|     |     |        +--| (47)
+|     |     |        |  |  +--IZCASIA1356_fresh_MOTU37_EAG
+|     |     |        |  +--| (90)
+|     |     |        |     |     +--IZCASIA2924_brackish_MOTU39_EAG
+|     |     |        |     |  +--| (100)
+|     |     |        |     |  |  +--IZCASIA2924_brackish_MOTU40_EAG
+|     |     |        |     +--| (92)
+|     |     |        |        +--IZCASIA1104_brackish_MOTU41_EAG
+|     |     |     +--| (42)
+|     |     |     |  +--18_fresh_MOTU43_EAG
+|     |     |  +--| (78)
+|     |     |  |  |                 +--IZCASIA0696a_brackish_MOTU42_EAG
+|     |     |  |  |              +--| (85)
+|     |     |  |  |              |  |  +--NuhuNur_brackish_Gammarus_lacustris_COI
+|     |     |  |  |              |  +--| (95)
+|     |     |  |  |              |     |        +--NamishNur_brackish_Gammarus_lacustris_COI
+|     |     |  |  |              |     |     +--| (35)
+|     |     |  |  |              |     |     |  +--NamishNur_4
+|     |     |  |  |              |     |  +--| (37)
+|     |     |  |  |              |     |  |  |  +--Angara_2_consensus
+|     |     |  |  |              |     |  |  +--| (63)
+|     |     |  |  |              |     |  |     +--NamishNur_1
+|     |     |  |  |              |     +--| (40)
+|     |     |  |  |              |        |                       +**MK887756_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K12
+|     |     |  |  |              |        |                    +**|
+|     |     |  |  |              |        |                    |  +**MK887758_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K15
+|     |     |  |  |              |        |                 +**|
+|     |     |  |  |              |        |                 |  +**MK887761_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K18
+|     |     |  |  |              |        |              +**|
+|     |     |  |  |              |        |              |  +**MK887759_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K16
+|     |     |  |  |              |        |           +**|
+|     |     |  |  |              |        |           |  +**MK887763_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K20
+|     |     |  |  |              |        |        +**|
+|     |     |  |  |              |        |        |  +**MK887760_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K17
+|     |     |  |  |              |        |     +--|
+|     |     |  |  |              |        |     |  +**MK887764_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K21
+|     |     |  |  |              |        |  +--| (23)
+|     |     |  |  |              |        |  |  |  +--MK887762_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K19
+|     |     |  |  |              |        |  |  +--| (38)
+|     |     |  |  |              |        |  |     |     +--NuhuNur_1_consensus
+|     |     |  |  |              |        |  |     |  +--| (100)
+|     |     |  |  |              |        |  |     |  |  +--NuhuNur_3
+|     |     |  |  |              |        |  |     +--| (39)
+|     |     |  |  |              |        |  |        |  +--NuhuNur_2
+|     |     |  |  |              |        |  |        +--| (77)
+|     |     |  |  |              |        |  |           |  +--NamishNur_2
+|     |     |  |  |              |        |  |           +--| (96)
+|     |     |  |  |              |        |  |              +--NamishNur_3
+|     |     |  |  |              |        +--| (74)
+|     |     |  |  |              |           +--MK887757_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K14
+|     |     |  |  |           +--| (41)
+|     |     |  |  |           |  +--1_brekish_MOTU27_NAG
+|     |     |  |  |        +--| (89)
+|     |     |  |  |        |  +--2_fresh_MOTU30_NAG
+|     |     |  |  |     +--| (70)
+|     |     |  |  |     |  |  +--IZCASIA1669_salty_MOTU56_TSG-4
+|     |     |  |  |     |  +--| (95)
+|     |     |  |  |     |     |                       +--IZCASIA2796_salty_MOTU63_STG
+|     |     |  |  |     |     |                    +--| (100)
+|     |     |  |  |     |     |                    |  +--IZCASIA2802_brackish_MOTU65_STG
+|     |     |  |  |     |     |                 +--| (100)
+|     |     |  |  |     |     |                 |  +--IZCASIA2800_salty_MOTU64_STG
+|     |     |  |  |     |     |              +--| (97)
+|     |     |  |  |     |     |              |  +--IZCASIA2905_salty_MOTU66_STG
+|     |     |  |  |     |     |           +--| (80)
+|     |     |  |  |     |     |           |  +--IZCASIA2794_fresh_MOTU67_STG
+|     |     |  |  |     |     |        +--| (34)
+|     |     |  |  |     |     |        |  |                    +--IZCASIA1336_fresh_MOTU69_STG
+|     |     |  |  |     |     |        |  |                 +--| (94)
+|     |     |  |  |     |     |        |  |                 |  +--IZCASIA1051_fresh_MOTU70_STG
+|     |     |  |  |     |     |        |  |              +--| (79)
+|     |     |  |  |     |     |        |  |              |  |  +--IZCASIA1109_fresh_MOTU71_STG
+|     |     |  |  |     |     |        |  |              |  +--| (97)
+|     |     |  |  |     |     |        |  |              |     +--IZCASIA0572_fresh_MOTU72_STG
+|     |     |  |  |     |     |        |  |           +--| (48)
+|     |     |  |  |     |     |        |  |           |  +--IZCASIA1167_fresh_MOTU73_STG
+|     |     |  |  |     |     |        |  |        +--| (49)
+|     |     |  |  |     |     |        |  |        |  +------------------------SLOCHN249_fresh_MOTU9_TSG-1
+|     |     |  |  |     |     |        |  |     +--| (52)
+|     |     |  |  |     |     |        |  |     |  |     +--IZCASIA1335_fresh_MOTU74_STG
+|     |     |  |  |     |     |        |  |     |  |  +--| (76)
+|     |     |  |  |     |     |        |  |     |  |  |  |     +--IZCASIA1071_fresh_MOTU75_STG
+|     |     |  |  |     |     |        |  |     |  |  |  |  +--| (42)
+|     |     |  |  |     |     |        |  |     |  |  |  |  |  +--IZCASIA1072_fresh_MOTU76_STG
+|     |     |  |  |     |     |        |  |     |  |  |  +--| (60)
+|     |     |  |  |     |     |        |  |     |  |  |     |                                                            +--20_fresh_MOTU81_STG
+|     |     |  |  |     |     |        |  |     |  |  |     |                                                         +--| (93)
+|     |     |  |  |     |     |        |  |     |  |  |     |                                                         |  |  +--21_fresh_MOTU92_EUG-2
+|     |     |  |  |     |     |        |  |     |  |  |     |                                                         |  +--| (95)
+|     |     |  |  |     |     |        |  |     |  |  |     |                                                         |     +--22_fresh_MOTU93_EUG-2
+|     |     |  |  |     |     |        |  |     |  |  |     +---------------------------------------------------------| (100)
+|     |     |  |  |     |     |        |  |     |  |  |                                                               +--23_fresh_MOTU95_TSG-5
+|     |     |  |  |     |     |        |  |     |  +--| (50)
+|     |     |  |  |     |     |        |  |     |     |  +--IZCASIA1073_fresh_MOTU78_STG
+|     |     |  |  |     |     |        |  |     |     +--| (100)
+|     |     |  |  |     |     |        |  |     |        +--IZCASIA1111_fresh_MOTU77_STG
+|     |     |  |  |     |     |        |  |  +--| (27)
+|     |     |  |  |     |     |        |  |  |  |     +--SLOCHN168_salty_MOTU85_EUG-2
+|     |     |  |  |     |     |        |  |  |  |  +--| (67)
+|     |     |  |  |     |     |        |  |  |  |  |  +--SLOCHN235_fresh_MOTU91_EUG-2
+|     |     |  |  |     |     |        |  |  |  +--| (19)
+|     |     |  |  |     |     |        |  |  |     |                 +--SLOCHN234_fresh_MOTU94_TSG-5
+|     |     |  |  |     |     |        |  |  |     |              +--| (86)
+|     |     |  |  |     |     |        |  |  |     |              |  +--SLOCHNTAD4_fresh_MOTU100_TSG-5
+|     |     |  |  |     |     |        |  |  |     |           +--| (87)
+|     |     |  |  |     |     |        |  |  |     |           |  +--SLOCHN170_salty_MOTU86_EUG-2
+|     |     |  |  |     |     |        |  |  |     |        +--| (77)
+|     |     |  |  |     |     |        |  |  |     |        |  |                    +--IZCASIA1347_salty_MOTU101_TSG-5
+|     |     |  |  |     |     |        |  |  |     |        |  |                 +--| (97)
+|     |     |  |  |     |     |        |  |  |     |        |  |                 |  +--IZCASIA1981_fresh_MOTU102_TSG-5
+|     |     |  |  |     |     |        |  |  |     |        |  |              +--| (97)
+|     |     |  |  |     |     |        |  |  |     |        |  |              |  |           +--IZCASIA1384_brackish_MOTU103_TSG-5
+|     |     |  |  |     |     |        |  |  |     |        |  |              |  |        +--| (53)
+|     |     |  |  |     |     |        |  |  |     |        |  |              |  |        |  +--------------Angara_1_consensus
+|     |     |  |  |     |     |        |  |  |     |        |  |              |  |     +--| (91)
+|     |     |  |  |     |     |        |  |  |     |        |  |              |  |     |  +--IZCASIA1386_brackish_MOTU104_TSG-5
+|     |     |  |  |     |     |        |  |  |     |        |  |              |  |  +--| (75)
+|     |     |  |  |     |     |        |  |  |     |        |  |              |  |  |  +--SLOCHN371_fresh_MOTU105_TSG-5
+|     |     |  |  |     |     |        |  |  |     |        |  |              |  +--| (97)
+|     |     |  |  |     |     |        |  |  |     |        |  |              |     +--IZCASIA0432_brackish_MOTU106_TSG-5
+|     |     |  |  |     |     |        |  |  |     |        |  |           +--| (96)
+|     |     |  |  |     |     |        |  |  |     |        |  |           |  +--SLOCHN360_fresh_MOTU107_TSG-5
+|     |     |  |  |     |     |        |  |  |     |        |  |        +--| (95)
+|     |     |  |  |     |     |        |  |  |     |        |  |        |  +--SLOCHN257_fresh_MOTU108_TSG-5
+|     |     |  |  |     |     |        |  |  |     |        |  |     +--| (88)
+|     |     |  |  |     |     |        |  |  |     |        |  |     |  +--SLOCHN350_fresh_MOTU117_TSG-5
+|     |     |  |  |     |     |        |  |  |     |        |  |  +--| (91)
+|     |     |  |  |     |     |        |  |  |     |        |  |  |  |                 +--SLOCHN198_fresh_MOTU111_TSG-5
+|     |     |  |  |     |     |        |  |  |     |        |  |  |  |              +--| (100)
+|     |     |  |  |     |     |        |  |  |     |        |  |  |  |              |  +--IZCASIA2008_brackish_MOTU112_TSG-5
+|     |     |  |  |     |     |        |  |  |     |        |  |  |  |           +--| (100)
+|     |     |  |  |     |     |        |  |  |     |        |  |  |  |           |  |  +--IZCASIA1996_fresh_MOTU113_TSG-5
+|     |     |  |  |     |     |        |  |  |     |        |  |  |  |           |  +--| (100)
+|     |     |  |  |     |     |        |  |  |     |        |  |  |  |           |     +--IZCASIA2018_fresh_MOTU114_TSG-5
+|     |     |  |  |     |     |        |  |  |     |        |  |  |  |        +--| (90)
+|     |     |  |  |     |     |        |  |  |     |        |  |  |  |        |  +--IZCASIA2010_fresh_MOTU118_TSG-5
+|     |     |  |  |     |     |        |  |  |     |        |  |  |  |     +--| (92)
+|     |     |  |  |     |     |        |  |  |     |        |  |  |  |     |  +--SLOCHNTAD2_fresh_MOTU115_TSG-5
+|     |     |  |  |     |     |        |  |  |     |        |  |  |  |  +--| (96)
+|     |     |  |  |     |     |        |  |  |     |        |  |  |  |  |  +--IZCASIA2011_brackish_MOTU116_TSG-5
+|     |     |  |  |     |     |        |  |  |     |        |  |  |  +--| (97)
+|     |     |  |  |     |     |        |  |  |     |        |  |  |     +--IZCASIA2001_brackish_MOTU119_TSG-5
+|     |     |  |  |     |     |        |  |  |     |        |  +--| (95)
+|     |     |  |  |     |     |        |  |  |     |        |     |  +--SLOCHN174_fresh_MOTU109_TSG-5
+|     |     |  |  |     |     |        |  |  |     |        |     +--| (100)
+|     |     |  |  |     |     |        |  |  |     |        |        +--SLOCHN420_fresh_MOTU110_TSG-5
+|     |     |  |  |     |     |        |  |  |     |     +--| (41)
+|     |     |  |  |     |     |        |  |  |     |     |  |     +--IZCASIA0693A_fresh_MOTU99_TSG-5
+|     |     |  |  |     |     |        |  |  |     |     |  |  +--| (94)
+|     |     |  |  |     |     |        |  |  |     |     |  |  |  |  +--SLOCHNN2TUM_fresh_MOTU96_TSG-5
+|     |     |  |  |     |     |        |  |  |     |     |  |  |  +--| (100)
+|     |     |  |  |     |     |        |  |  |     |     |  |  |     +--SLOCHN515_fresh_MOTU97_TSG-5
+|     |     |  |  |     |     |        |  |  |     |     |  +--| (42)
+|     |     |  |  |     |     |        |  |  |     |     |     |  +--SLOCHN236_fresh_MOTU61_TSG-4
+|     |     |  |  |     |     |        |  |  |     |     |     +--| (57)
+|     |     |  |  |     |     |        |  |  |     |     |        +--SLOCHN161_fresh_MOTU84_EUG-2
+|     |     |  |  |     |     |        |  |  |     |  +--| (46)
+|     |     |  |  |     |     |        |  |  |     |  |  +--SLOCHN075_fresh_MOTU83_EUG-2
+|     |     |  |  |     |     |        |  |  |     +--| (38)
+|     |     |  |  |     |     |        |  |  |        +--SLOCHN351_salty_MOTU90_EUG-2
+|     |     |  |  |     |     |        |  +--| (26)
+|     |     |  |  |     |     |        |     |     +--SLOCHN345_brackish_MOTU80_STG
+|     |     |  |  |     |     |        |     |  +--| (100)
+|     |     |  |  |     |     |        |     |  |  +--3_fresh_MOTU81_STG
+|     |     |  |  |     |     |        |     +--| (60)
+|     |     |  |  |     |     |        |        |  +--SLOCHN442_fresh_MOTU87_EUG-2
+|     |     |  |  |     |     |        |        +--| (88)
+|     |     |  |  |     |     |        |           +--SLOCHN343_fresh_MOTU98_TSG-5
+|     |     |  |  |     |     |     +--| (94)
+|     |     |  |  |     |     |     |  |  +--SLOCHN363_fresh_MOTU60_TSG-4
+|     |     |  |  |     |     |     |  +--| (100)
+|     |     |  |  |     |     |     |     |  +--SLOCHN364_brackish_MOTU58_TSG-4
+|     |     |  |  |     |     |     |     +--| (100)
+|     |     |  |  |     |     |     |        +--SLOCHN368_fresh_MOTU59_TSG-4
+|     |     |  |  |     |     |  +--| (96)
+|     |     |  |  |     |     |  |  +--IZCASIA0426_fresh_MOTU57_TSG-4
+|     |     |  |  |     |     +--| (95)
+|     |     |  |  |     |        +--IZCASIA1260_salty_MOTU23_NAG
+|     |     |  |  |  +--| (54)
+|     |     |  |  |  |  +--IZCASIA1635_brackish_MOTU52_NTG
+|     |     |  |  +--| (29)
+|     |     |  |     |                 +--IZCASIA1670_brackish_MOTU45_NTG
+|     |     |  |     |              +--| (93)
+|     |     |  |     |              |  +--IZCASIA0871_brackish_MOTU50_NTG
+|     |     |  |     |           +--| (92)
+|     |     |  |     |           |  |     +--IZCASIA1671_salty_MOTU47_NTG
+|     |     |  |     |           |  |  +--| (98)
+|     |     |  |     |           |  |  |  |  +--IZCASIA1699_brackish_MOTU48_NTG
+|     |     |  |     |           |  |  |  +--| (100)
+|     |     |  |     |           |  |  |     +--32_fresh_MOTU49_NTG
+|     |     |  |     |           |  +--| (90)
+|     |     |  |     |           |     +--IZCASIA1933_fresh_MOTU51_NTG
+|     |     |  |     |        +--| (92)
+|     |     |  |     |        |  +--IZCASIA0968_salty_MOTU46_NTG
+|     |     |  |     |     +--| (94)
+|     |     |  |     |     |  +--IZCASIA0430_brackish_MOTU44_NTG
+|     |     |  |     |  +--| (58)
+|     |     |  |     |  |  |  +--IZCASIA1639_brackish_MOTU53_NTG
+|     |     |  |     |  |  +--| (83)
+|     |     |  |     |  |     +--IZCASIA0436a_fresh_MOTU54_NTG
+|     |     |  |     +--| (73)
+|     |     |  |        +--Kirenga_fresh_Gammarus_lacustris_COI
+|     |     +--| (78)
+|     |        +--SLOCHN372_fresh_MOTU36_TSG-3
+|  +--| (100)
+|  |  +--SLOCHN375_salty_MOTU10_TSG-1
++--| (100)
+|  |        +--SLOCHN473_fresh_MOTU4_EUG-1
+|  |     +--| (94)
+|  |     |  |  +--5_fresh_MOTU3_EUG-1
+|  |     |  +--| (98)
+|  |     |     +--9_fresh_MOTU8_EUG-1
+|  |  +--| (94)
+|  |  |  +--6_fresh_MOTU5_EUG-1
+|  +--| (94)
+|     |  +--7_fresh_MOTU6_EUG-1
+|     +--| (100)
+|        +--8_fresh_MOTU7_EUG-1
+|
++--4_fresh_MOTU2_EUG-1
+
+
+Consensus tree in newick format: 
+
+(SLOCHN001_fresh_MOTU1_EUG-1:0.0016523530,(((((IZCASIA1686_brakish_MOTU16_HIG:0.0110892920,((IZCASIA1952_fresh_MOTU14_HIG:0.0075921930,SLOCHN342_salty_MOTU15_HIG:0.0073400355)100:0.0005782528,IZCASIA1259_brackish_MOTU13_HIG:0.0066067700)100:0.0033011533)100:0.0044943556,(IZCASIA1087_fresh_MOTU11_HIG:0.0085165278,IZCASIA2906_fresh_MOTU12_HIG:0.0109025397)100:0.0046170891)100:0.0038141813,(((((SLOCHN101_fresh_MOTU17_TSG-2:0.0111319967,10_fresh_MOTU21_TSG-2:0.0007686513)93:0.0027627027,SLOCHN370_brekish_MOTU20_TSG-2:0.0051212286)88:0.0016946705,((IZCASIA1810_fresh_MOTU18_TSG-2:0.0000020099,19_fresh_MOTU49_NTG:0.0000026117)98:0.0068184007,SLOCHN377_fresh_MOTU19_TSG-2:0.0041533589)86:0.0006606874)82:0.0013986831,(((IZCASIA1189_fresh_MOTU22_NAG:0.0036646314,(((((SLOCHN490_fresh_MOTU25_NAG:0.0015130063,((26_brekish_MOTU27_NAG:0.0019594998,28_fresh_MOTU30_NAG:0.0098005449)90:0.0000020359,((27_brekish_MOTU28_NAG:0.0019276833,30_fresh_MOTU32_NAG:0.0000020359)100:0.0019305404,29_fresh_MOTU31_NAG:0.0019614049)100:0.0038715535)85:0.0000020359)93:0.0014913101,SLOCHN359_fresh_MOTU35_TSG-3:0.0032182258)93:0.0006570166,11_fresh_MOTU26_NAG:0.0031245616)94:0.0003289755,((13_brekish_MOTU28_NAG:0.0112754569,16_fresh_MOTU32_NAG:0.0027576753)96:0.0009439718,15_fresh_MOTU31_NAG:0.0165204662)99:0.0017657395)94:0.0002530561,(12_brekish_MOTU27_NAG:0.0054720311,14_fresh_MOTU30_NAG:0.0008981555)88:0.0000026117)82:0.0005079449)80:0.0002093181,((IZCASIA1389_fresh_MOTU24_NAG:0.0005904726,25_fresh_MOTU26_NAG:0.0038810648)38:0.0003990355,31_fresh_MOTU43_EAG:0.0032267776)32:0.0000021513)76:0.0011615336,(IZCASIA1344_fresh_MOTU33_TSG-3:0.0037820897,17_fresh_MOTU34_TSG-3:0.0009200554)99:0.0028346721)88:0.0008358702)79:0.0006495332,(((((IZCASIA1196_fresh_MOTU38_EAG:0.0000022377,(((IZCASIA0436a_fresh_MOTU55_NTG:0.0092803603,(Bormashovoe_salty_Gammarus_lacustris_COI:0.0000026117,Maloe_2_consensus:0.0000026117)97:0.0000026117)92:0.6269678757,Maloe_1_consensus:0.0000026117)88:0.0000020176,Maloe_3:0.0000026117)94:0.0052305136)79:0.0022722009,(IZCASIA1356_fresh_MOTU37_EAG:0.0036475882,((IZCASIA2924_brackish_MOTU39_EAG:0.0000022308,IZCASIA2924_brackish_MOTU40_EAG:0.0000022308)100:0.0020925533,IZCASIA1104_brackish_MOTU41_EAG:0.0055301354)92:0.0004248895)90:0.0009431171)47:0.0010372058,18_fresh_MOTU43_EAG:0.0055869006)42:0.0000265011,((((((IZCASIA0696a_brackish_MOTU42_EAG:0.0000023117,(NuhuNur_brackish_Gammarus_lacustris_COI:0.0000026117,(((NamishNur_brackish_Gammarus_lacustris_COI:0.0000026117,NamishNur_4:0.0000026117)35:0.0000026117,(Angara_2_consensus:0.0000026117,NamishNur_1:0.0000026117)63:0.0000026117)37:0.0000026117,((((((((MK887756_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K12:0.0000000000,MK887758_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K15:0.0000000000):0.0000000000,MK887761_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K18:0.0000000000):0.0000000000,MK887759_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K16:0.0000000000):0.0000000000,MK887763_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K20:0.0000000000):0.0000000000,MK887760_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K17:0.0000000000):0.0000000000,MK887764_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K21:0.0000000000):0.0000026117,(MK887762_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K19:0.0016585781,((NuhuNur_1_consensus:0.0000026117,NuhuNur_3:0.0000026117)100:0.0017083334,(NuhuNur_2:0.0357325195,(NamishNur_2:0.0000026117,NamishNur_3:0.0000026117)96:0.0000021168)77:0.0010258886)39:0.0000029320)38:0.0000022149)23:0.0000022149,MK887757_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K14:0.0000026117)74:0.0000022149)40:0.0000026161)95:0.0016069448)85:0.0000028149,1_brekish_MOTU27_NAG:0.0000025764)41:0.0000021877,2_fresh_MOTU30_NAG:0.0000025764)89:0.0198930498,(IZCASIA1669_salty_MOTU56_TSG-4:0.0156148155,((((((((IZCASIA2796_salty_MOTU63_STG:0.0036400056,IZCASIA2802_brackish_MOTU65_STG:0.0033909727)100:0.0038319238,IZCASIA2800_salty_MOTU64_STG:0.0053663858)100:0.0150315807,IZCASIA2905_salty_MOTU66_STG:0.0189107794)97:0.0141994828,IZCASIA2794_fresh_MOTU67_STG:0.0293208677)80:0.0121801549,(((((((IZCASIA1336_fresh_MOTU69_STG:0.0136555441,IZCASIA1051_fresh_MOTU70_STG:0.0054964897)94:0.0076956746,(IZCASIA1109_fresh_MOTU71_STG:0.0157063766,IZCASIA0572_fresh_MOTU72_STG:0.0081861533)97:0.0019075088)79:0.0113186199,IZCASIA1167_fresh_MOTU73_STG:0.0000025764)48:0.0064182015,SLOCHN249_fresh_MOTU9_TSG-1:4.4690695711)49:0.0219770876,((IZCASIA1335_fresh_MOTU74_STG:0.0085296090,((IZCASIA1071_fresh_MOTU75_STG:0.0058057218,IZCASIA1072_fresh_MOTU76_STG:0.0065055545)42:0.0018018559,((20_fresh_MOTU81_STG:0.0692367310,(21_fresh_MOTU92_EUG-2:0.0000026117,22_fresh_MOTU93_EUG-2:0.0013595180)95:0.0537065700)93:0.1060673675,23_fresh_MOTU95_TSG-5:0.0133294927)100:9.9999987835)60:0.0025264909)76:0.0532104958,(IZCASIA1073_fresh_MOTU78_STG:0.0063524609,IZCASIA1111_fresh_MOTU77_STG:0.0063516339)100:0.0404570777)50:0.0057722483)52:0.0075253701,((SLOCHN168_salty_MOTU85_EUG-2:0.0652809691,SLOCHN235_fresh_MOTU91_EUG-2:0.0822746812)67:0.0047866288,((((((SLOCHN234_fresh_MOTU94_TSG-5:0.0832656898,SLOCHNTAD4_fresh_MOTU100_TSG-5:0.0762268383)86:0.0027579490,SLOCHN170_salty_MOTU86_EUG-2:0.1082363571)87:0.0022454985,(((((((IZCASIA1347_salty_MOTU101_TSG-5:0.0768699284,IZCASIA1981_fresh_MOTU102_TSG-5:0.1026376941)97:0.0190835724,((((IZCASIA1384_brackish_MOTU103_TSG-5:0.0000023735,Angara_1_consensus:2.6374186373)53:0.0067959573,IZCASIA1386_brackish_MOTU104_TSG-5:0.0076136500)91:0.0176430164,SLOCHN371_fresh_MOTU105_TSG-5:0.0177098697)75:0.0068814785,IZCASIA0432_brackish_MOTU106_TSG-5:0.0272971905)97:0.0501521602)97:0.0409253288,SLOCHN360_fresh_MOTU107_TSG-5:0.0946082293)96:0.0131105338,SLOCHN257_fresh_MOTU108_TSG-5:0.1246320848)95:0.0213393248,SLOCHN350_fresh_MOTU117_TSG-5:0.0494060099)88:0.0040886586,((((((SLOCHN198_fresh_MOTU111_TSG-5:0.0187472410,IZCASIA2008_brackish_MOTU112_TSG-5:0.0157368812)100:0.0263635408,(IZCASIA1996_fresh_MOTU113_TSG-5:0.0281404543,IZCASIA2018_fresh_MOTU114_TSG-5:0.0193215963)100:0.0160806474)100:0.0266716600,IZCASIA2010_fresh_MOTU118_TSG-5:0.0918476025)90:0.0060472753,SLOCHNTAD2_fresh_MOTU115_TSG-5:0.1123043286)92:0.0052935244,IZCASIA2011_brackish_MOTU116_TSG-5:0.0788659703)96:0.0082991095,IZCASIA2001_brackish_MOTU119_TSG-5:0.1049661235)97:0.0239221407)91:0.0038502048,(SLOCHN174_fresh_MOTU109_TSG-5:0.0590857736,SLOCHN420_fresh_MOTU110_TSG-5:0.0489342514)100:0.0653903926)95:0.0215481588)77:0.0018489316,((IZCASIA0693A_fresh_MOTU99_TSG-5:0.0556403672,(SLOCHNN2TUM_fresh_MOTU96_TSG-5:0.0572515504,SLOCHN515_fresh_MOTU97_TSG-5:0.0344966014)100:0.0209726962)94:0.0075282440,(SLOCHN236_fresh_MOTU61_TSG-4:0.0740879301,SLOCHN161_fresh_MOTU84_EUG-2:0.0622244033)57:0.0135765357)42:0.0022972881)41:0.0024634621,SLOCHN075_fresh_MOTU83_EUG-2:0.0434921986)46:0.0053323177,SLOCHN351_salty_MOTU90_EUG-2:0.0795840439)38:0.0018807433)19:0.0021049937)27:0.0043989349,((SLOCHN345_brackish_MOTU80_STG:0.0097573472,3_fresh_MOTU81_STG:0.0335481000)100:0.0894453897,(SLOCHN442_fresh_MOTU87_EUG-2:0.0413267028,SLOCHN343_fresh_MOTU98_TSG-5:0.0609425804)88:0.0062502564)60:0.0031506687)26:0.0036289618)34:0.0054896789,(SLOCHN363_fresh_MOTU60_TSG-4:0.0011469680,(SLOCHN364_brackish_MOTU58_TSG-4:0.0073781663,SLOCHN368_fresh_MOTU59_TSG-4:0.0050045864)100:0.0038025178)100:0.0370083555)94:0.0086271938,IZCASIA0426_fresh_MOTU57_TSG-4:0.0216793510)96:0.0041171920,IZCASIA1260_salty_MOTU23_NAG:0.0312300570)95:0.0052764992)95:0.0045332592)70:0.0066209946,IZCASIA1635_brackish_MOTU52_NTG:0.0072273057)54:0.0001570347,((((((IZCASIA1670_brackish_MOTU45_NTG:0.0011921243,IZCASIA0871_brackish_MOTU50_NTG:0.0025149113)93:0.0002955497,((IZCASIA1671_salty_MOTU47_NTG:0.0041318409,(IZCASIA1699_brackish_MOTU48_NTG:0.0021212275,32_fresh_MOTU49_NTG:0.0000020359)100:0.0012176435)98:0.0005677239,IZCASIA1933_fresh_MOTU51_NTG:0.0021486625)90:0.0000020555)92:0.0001829768,IZCASIA0968_salty_MOTU46_NTG:0.0051547228)92:0.0011848394,IZCASIA0430_brackish_MOTU44_NTG:0.0018833408)94:0.0013521224,(IZCASIA1639_brackish_MOTU53_NTG:0.0065293208,IZCASIA0436a_fresh_MOTU54_NTG:0.0053025379)83:0.0005888566)58:0.0002155645,Kirenga_fresh_Gammarus_lacustris_COI:0.0000026117)73:0.0000084451)29:0.0003397037)78:0.0015276737,SLOCHN372_fresh_MOTU36_TSG-3:0.0018087679)78:0.0009081099)97:0.0081954432)96:0.0036789864,SLOCHN375_salty_MOTU10_TSG-1:0.0219797750)100:0.0103433804,(((SLOCHN473_fresh_MOTU4_EUG-1:0.0034287505,(5_fresh_MOTU3_EUG-1:0.0018742887,9_fresh_MOTU8_EUG-1:0.0004478286)98:0.0004769166)94:0.0008379261,6_fresh_MOTU5_EUG-1:0.0017566276)94:0.0011082244,(7_fresh_MOTU6_EUG-1:0.0010420649,8_fresh_MOTU7_EUG-1:0.0025035083)100:0.0012743024)94:0.0025078763)100:0.0088545489,4_fresh_MOTU2_EUG-1:0.0037712414);
+
+TIME STAMP
+----------
+
+Date and time: Mon Dec  8 15:36:22 2025
+Total CPU time used: 2820.195735 seconds (0h:47m:0s)
+Total wall-clock time used: 2943.647117 seconds (0h:49m:3s)
+
