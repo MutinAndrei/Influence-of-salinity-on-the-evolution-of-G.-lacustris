@@ -1,5 +1,8 @@
 # Halotolerant-gammarus-lacustris-phylogenetics
 
+[![License](https://img.shields.io/badge/License-Custom-blue)](LICENSE)
+[![Status](https://img.shields.io/badge/Article-In%20press-yellow)]()
+
 **Repository for the article:**
 > *"Halotolerant Gammarus lacustris Sars, 1863 (Amphipoda) in water bodies of the Baikal region with different salinity regimes: role in ecosystems and perspectives in aquaculture"* 
 
