@@ -1,6 +1,6 @@
 # Halotolerant-gammarus-lacustris-phylogenetics
 
-[![License](https://img.shields.io/badge/License-Custom-blue)][LICENSE](https://github.com/MutinAndrei/Influence-of-salinity-on-the-evolution-of-G.-lacustris/blob/main/LICENSE.md)
+[![License](https://img.shields.io/badge/License-Custom-blue)][LICENSE]
 [![Status](https://img.shields.io/badge/Article-In%20press-yellow)]()
 
 **Repository for the article:**
