@@ -8,11 +8,11 @@ library(stringr)
 
 
 #Uploading a tree file
-tree <- read.tree("example.nex.treefile")
+tree <- read.tree("8genes_partitions.nex.treefile")
 tree$tip.label <- gsub("brakish", "brackish", tree$tip.label)
 tree$tip.label <- gsub("brekish", "brackish", tree$tip.label)
 
-#Re-rooting by 219 node
+#Re-rooting by 248 node
 new_root_node <- 248
 rerooted_tree_ape <- root(
   tree,
@@ -158,10 +158,10 @@ library(stringr)
 library(phytools)
 
 # Uploading a tree file
-tree <- read.tree("example.nex.treefile")
+tree <- read.tree("8genes_partitions.nex.treefile")
 tree$tip.label <- gsub("brakish", "brackish", tree$tip.label)
 tree$tip.label <- gsub("brekish", "brackish", tree$tip.label)
-#Re-rooting by 211 node
+#Re-rooting by 248 node
 new_root_node <- 248
 rerooted_tree_ape <- root(
   tree,
