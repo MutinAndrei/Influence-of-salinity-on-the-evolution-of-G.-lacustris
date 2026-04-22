@@ -38,10 +38,90 @@ The repository includes:
 | **This study** | Phylogenetic tree generation files used in this study | [trees](https://github.com/MutinAndrei/Influence-of-salinity-on-the-evolution-of-G.-lacustris/tree/main/results/trees) |
 | **This study** | BASH script for generating the phylogenetic tree, R script for retrieving FASTA sequence files from GenBank, R script for visualizing phylogenetic trees | [scripts](https://github.com/MutinAndrei/Influence-of-salinity-on-the-evolution-of-G.-lacustris/tree/main/scripts) |
 
+## ⚙️ Reproducing the analysis
+
+To reproduce the phylogenetic analysis presented in the article, the following steps must be performed.
+
+### 1. **Cloning the repository**
+
+```
+git clone https://github.com/MutinAndrei/Influence-of-salinity-on-the-evolution-of-G.-lacustris.git
+cd Influence-of-salinity-on-the-evolution-of-G.-lacustris
+```
+
+### 2. **Installing dependencies**
+
+The following software was used for the phylogenetic analysis:
+
+- IQ-TREE (v2.0.7) — The program can be installed via the link [IQ-TREE](https://iqtree.github.io/)
+
+- MAFFT (v7.511) — The program can be installed via the link [MAFFT](https://mafft.cbrc.jp/alignment/software/linux.html)
+ 
+- TrimAl (v1.5) — The program can be installed via the link [TrimAl](https://github.com/inab/trimal)
+
+For tree visualization, the R programming language (v4.5.0) and the following packages were used:
+
+- tidyverse (v2.0.0)
+- ggtree (v3.16.0)
+- ape (v5.8-1)
+- ggplot2 (v4.0.1)
+- dplyr (v1.1.4)
+- stringr (v1.5.1)
+
+
+### 3. **Running commands**
+
+3.1. **Cycle MAFFT alignment**
+
+Navigate to the `/data/raw_seq` folder and run the following command:
+
+```
+for x in *.fa; do mafft $x > $x.aln; done
+```
+
+The execution of this command will result in the creation of `.aln` files in the `raw_seq` folder.
+
+3.2. **Trim alignment cycle**
+
+After that, trim the alignment using the following command (specifying the path to the TrimAl program beforehand):
+
+```
+for x in *.aln; do /path/to/trimal -in $x -out $x.trim -automated1; done
+```
+
+The execution of this command will result in the creation of files containing trimmed sequences with the `.trim` extension.
+
+3.3. **Creating a folder with trimmed files** 
+
+Create a directory named Trim_file
+
+Move the resulting `.trim` files into the directory named Trim_file
+	
+Next, navigate to the `partitions` folder and copy the file `8genes_partitions.nex` into the `raw_seq` directory.
+
+3.4. **Building a tree**
+
+To build the phylogenetic tree, run the command:
+
+```
+iqtree2 -p Trim_file/ -p 8genes_partitions.nex -B 1000
+```
+
+The main result of executing this command will be the generation of a number of tree files, the primary one being the file with the `.treefile` extension.
+
+### 4. Tree visualization
+
+4.1. To visualize the trees, copy the newly generated file with the `.treefile` extension into the `scripts` folder.
+
+4.2. Run the R script named R_script_for_rendering_trees.R
+
+4.3. The result of executing the script will be phylogenetic tree images in PNG and SVG formats.
+
+
 ## 📬 Contacts
 
 For any questions regarding the data or analysis, please contact:
 
-Shchapova Ekaterina Pavlovna - shchapova.katerina@gmail.com
+Ekaterina Shchapova - shchapova.katerina@gmail.com
 
-Mutin Andrei - andreimutin97@gmail.com
+Andrei Mutin - andreimutin97@gmail.com
