@@ -74,7 +74,7 @@ For tree visualization, the R programming language (v4.5.0) and the following pa
 
 ### 3. **Running commands**
 
-3.1. **Cycle MAFFT alignment**
+3.1. **Cycle MAFFT (version 7.490) alignment**
 
 Navigate to the `/data/raw_seq` folder and run the following command:
 
@@ -86,7 +86,7 @@ The execution of this command will result in the creation of `.aln` files in the
 
 3.2. **Trim alignment cycle**
 
-After that, trim the alignment using the following command (specifying the path to the TrimAl program beforehand):
+After that, trim the alignment using the following command (specifying the path to the TrimAl (version 1.5) program beforehand):
 
 ```
 for x in *.aln; do /path/to/trimal -in $x -out $x.trim -automated1; done
@@ -102,7 +102,7 @@ Move the resulting `.trim` files into the directory named Trim_file
 	
 Next, navigate to the `partitions` folder and copy the file `example.nex` into the `raw_seq` directory.
 
-3.4. **Building a tree**
+3.4. **Building a tree with IQ-TREE (version 2.0.7)**
 
 To build the phylogenetic tree, run the command:
 
