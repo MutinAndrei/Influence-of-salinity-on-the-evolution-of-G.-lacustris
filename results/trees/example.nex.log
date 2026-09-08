@@ -1,0 +1,1046 @@
+IQ-TREE multicore version 2.0.7 for Linux 64-bit built Jan 21 2022
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    andrei-IdeaPad-3-15IIL05 (AVX512, FMA3, 7 GB RAM)
+Command: iqtree2 -p iqtree_table_salt/ -p example.nex -B 1000
+Seed:    707311 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Sep  8 11:58:55 2026
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading partition model file example.nex ...
+
+Loading 8 partitions...
+Reading alignment file iqtree_table_salt/AK_lacustris_HOU_table_salt.fa.aln.trim ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 35 sequences with 676 columns, 159 distinct patterns
+27 parsimony-informative, 50 singleton sites, 599 constant sites
+                                    Gap/Ambiguity  Composition  p-value
+   1  SLOCHN001_fresh_MOTU1_EUG-1           2.22%    passed     98.05%
+   2  IZCASIA1686_brakish_MOTU16_HIG        0.44%    passed     99.96%
+   3  SLOCHN101_fresh_MOTU17_TSG-2          0.74%    passed     98.99%
+   4  IZCASIA1196_fresh_MOTU38_EAG          0.44%    passed     99.96%
+   5  IZCASIA0696a_brackish_MOTU42_EAG      1.04%    passed     99.99%
+   6  IZCASIA1670_brackish_MOTU45_NTG       0.30%    passed     99.87%
+   7  IZCASIA0968_salty_MOTU46_NTG         67.60%    passed     93.56%
+   8  IZCASIA1671_salty_MOTU47_NTG          0.15%    passed     99.81%
+   9  IZCASIA1699_brackish_MOTU48_NTG       1.18%    passed     99.53%
+  10  IZCASIA0871_brackish_MOTU50_NTG      68.05%    passed     97.86%
+  11  IZCASIA1639_brackish_MOTU53_NTG       1.18%    passed     99.92%
+  12  IZCASIA1669_salty_MOTU56_TSG-4        1.04%    passed     99.63%
+  13  IZCASIA2796_salty_MOTU63_STG          1.04%    passed    100.00%
+  14  IZCASIA2800_salty_MOTU64_STG          0.89%    passed     99.98%
+  15  IZCASIA2802_brackish_MOTU65_STG       0.74%    passed     99.98%
+  16  IZCASIA2905_salty_MOTU66_STG          0.30%    passed     99.96%
+  17  IZCASIA2794_fresh_MOTU67_STG          1.78%    passed     99.78%
+  18  IZCASIA1336_fresh_MOTU69_STG          0.59%    passed     99.94%
+  19  IZCASIA1051_fresh_MOTU70_STG          1.92%    passed     98.00%
+  20  IZCASIA1109_fresh_MOTU71_STG         44.08%    passed     95.03%
+  21  IZCASIA1335_fresh_MOTU74_STG          2.07%    passed     99.54%
+  22  IZCASIA1071_fresh_MOTU75_STG          0.44%    passed     99.78%
+  23  IZCASIA1072_fresh_MOTU76_STG          0.15%    passed     99.99%
+  24  IZCASIA1073_fresh_MOTU78_STG          0.74%    passed     99.98%
+  25  SLOCHN168_salty_MOTU85_EUG-2          0.59%    passed     99.98%
+  26  SLOCHN235_fresh_MOTU91_EUG-2          3.25%    passed     99.94%
+  27  SLOCHN234_fresh_MOTU94_TSG-5          0.74%    passed     98.63%
+  28  IZCASIA0693A_fresh_MOTU99_TSG-5      62.57%    passed     98.51%
+  29  SLOCHNTAD4_fresh_MOTU100_TSG-5        0.30%    passed     99.65%
+  30  IZCASIA1347_salty_MOTU101_TSG-5       0.00%    passed     97.96%
+  31  IZCASIA1384_brackish_MOTU103_TSG-5    0.00%    passed     97.93%
+  32  IZCASIA1386_brackish_MOTU104_TSG-5    1.92%    passed     96.66%
+  33  SLOCHN174_fresh_MOTU109_TSG-5         0.00%    passed     99.67%
+  34  SLOCHN198_fresh_MOTU111_TSG-5         0.15%    passed     99.72%
+  35  SLOCHNTAD2_fresh_MOTU115_TSG-5        0.00%    passed     98.82%
+WARNING: 3 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                 7.68%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file iqtree_table_salt/COIII_lacustris_HOU_table_salt.fa.aln.trim ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 52 sequences with 519 columns, 244 distinct patterns
+199 parsimony-informative, 29 singleton sites, 291 constant sites
+                                    Gap/Ambiguity  Composition  p-value
+   1  SLOCHN473_fresh_MOTU4_EUG-1           0.00%    passed     97.42%
+   2  SLOCHN375_salty_MOTU10_TSG-1          0.00%    passed     86.63%
+   3  IZCASIA1087_fresh_MOTU11_HIG          0.00%    passed     99.98%
+   4  IZCASIA2906_fresh_MOTU12_HIG          0.00%    passed     99.43%
+   5  IZCASIA1952_fresh_MOTU14_HIG          0.00%    passed     98.44%
+   6  SLOCHN342_salty_MOTU15_HIG            0.00%    passed     99.46%
+   7  IZCASIA1686_brakish_MOTU16_HIG        0.00%    passed     90.63%
+   8  IZCASIA1810_fresh_MOTU18_TSG-2       15.80%    passed     97.13%
+   9  IZCASIA1189_fresh_MOTU22_NAG          0.00%    passed     99.28%
+  10  IZCASIA1344_fresh_MOTU33_TSG-3        0.00%    passed     99.97%
+  11  SLOCHN372_fresh_MOTU36_TSG-3          0.00%    passed     99.39%
+  12  IZCASIA1356_fresh_MOTU37_EAG          0.00%    passed     96.86%
+  13  IZCASIA1196_fresh_MOTU38_EAG          0.00%    passed     97.62%
+  14  IZCASIA2924_brackish_MOTU39_EAG       0.00%    passed     98.69%
+  15  IZCASIA2924_brackish_MOTU40_EAG       0.00%    passed     98.69%
+  16  IZCASIA0696a_brackish_MOTU42_EAG      0.00%    passed     99.81%
+  17  IZCASIA0430_brackish_MOTU44_NTG       0.00%    passed     99.60%
+  18  IZCASIA1670_brackish_MOTU45_NTG       0.00%    passed     99.77%
+  19  IZCASIA0968_salty_MOTU46_NTG          0.00%    passed     99.91%
+  20  IZCASIA1671_salty_MOTU47_NTG          0.00%    passed    100.00%
+  21  IZCASIA1699_brackish_MOTU48_NTG       0.00%    passed    100.00%
+  22  IZCASIA0871_brackish_MOTU50_NTG       0.00%    passed     99.40%
+  23  IZCASIA1933_fresh_MOTU51_NTG          0.00%    passed    100.00%
+  24  IZCASIA1635_brackish_MOTU52_NTG       0.00%    passed     99.21%
+  25  IZCASIA1639_brackish_MOTU53_NTG       0.00%    passed     92.43%
+  26  IZCASIA0436a_fresh_MOTU54_NTG         0.00%    passed     99.45%
+  27  IZCASIA1669_salty_MOTU56_TSG-4        0.00%    passed     99.56%
+  28  SLOCHN363_fresh_MOTU60_TSG-4          0.00%    passed     99.56%
+  29  IZCASIA2796_salty_MOTU63_STG          0.00%    passed     94.90%
+  30  IZCASIA2800_salty_MOTU64_STG          0.00%    passed     95.23%
+  31  IZCASIA2802_brackish_MOTU65_STG       0.00%    passed     86.52%
+  32  IZCASIA2905_salty_MOTU66_STG          0.00%    passed     86.31%
+  33  IZCASIA2794_fresh_MOTU67_STG          0.00%    passed     70.89%
+  34  IZCASIA1336_fresh_MOTU69_STG          0.00%    passed     83.11%
+  35  IZCASIA1051_fresh_MOTU70_STG          0.00%    passed     92.65%
+  36  IZCASIA1109_fresh_MOTU71_STG          0.00%    passed     98.19%
+  37  IZCASIA1335_fresh_MOTU74_STG          0.00%    passed     98.29%
+  38  IZCASIA1071_fresh_MOTU75_STG          0.00%    passed     99.86%
+  39  IZCASIA1072_fresh_MOTU76_STG          0.00%    passed     93.43%
+  40  IZCASIA1111_fresh_MOTU77_STG          0.00%    passed     83.53%
+  41  IZCASIA1073_fresh_MOTU78_STG          0.00%    passed     62.54%
+  42  IZCASIA0693A_fresh_MOTU99_TSG-5       0.00%    passed     64.10%
+  43  IZCASIA1347_salty_MOTU101_TSG-5       0.00%    passed     52.36%
+  44  IZCASIA1981_fresh_MOTU102_TSG-5       0.00%    passed     51.11%
+  45  IZCASIA1384_brackish_MOTU103_TSG-5    0.00%    passed     51.66%
+  46  IZCASIA1386_brackish_MOTU104_TSG-5    0.00%    passed     29.78%
+  47  SLOCHN371_fresh_MOTU105_TSG-5         0.00%    passed     76.48%
+  48  SLOCHN360_fresh_MOTU107_TSG-5         0.00%    passed     99.67%
+  49  IZCASIA1996_fresh_MOTU113_TSG-5       1.54%    passed     98.60%
+  50  IZCASIA2011_brackish_MOTU116_TSG-5    0.00%    passed     44.57%
+  51  IZCASIA2010_fresh_MOTU118_TSG-5      26.59%    passed     81.19%
+  52  IZCASIA2001_brackish_MOTU119_TSG-5   36.99%    passed      8.67%
+****  TOTAL                                 1.56%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file iqtree_table_salt/COI_lacustris_HOU_table_salt.fa.aln.trim ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 137 sequences with 1213 columns, 821 distinct patterns
+585 parsimony-informative, 310 singleton sites, 318 constant sites
+                                                           Gap/Ambiguity  Composition  p-value
+   1  SLOCHN001_fresh_MOTU1_EUG-1                                  0.16%    passed     65.69%
+   2  4_fresh_MOTU2_EUG-1                                         50.54%    passed     98.36%
+   3  5_fresh_MOTU3_EUG-1                                         52.35%    passed     95.02%
+   4  SLOCHN473_fresh_MOTU4_EUG-1                                  0.16%    passed     76.48%
+   5  6_fresh_MOTU5_EUG-1                                         48.39%    passed     93.01%
+   6  7_fresh_MOTU6_EUG-1                                         57.05%    passed     74.52%
+   7  8_fresh_MOTU7_EUG-1                                         52.35%    passed     98.16%
+   8  9_fresh_MOTU8_EUG-1                                         51.77%    passed     96.66%
+   9  SLOCHN249_fresh_MOTU9_TSG-1                                 20.94%    failed      0.00%
+  10  SLOCHN375_salty_MOTU10_TSG-1                                 0.16%    passed     99.34%
+  11  IZCASIA1087_fresh_MOTU11_HIG                                 0.16%    passed     86.21%
+  12  IZCASIA2906_fresh_MOTU12_HIG                                 0.16%    passed     91.26%
+  13  IZCASIA1259_brackish_MOTU13_HIG                             24.15%    passed     83.12%
+  14  IZCASIA1952_fresh_MOTU14_HIG                                 0.16%    passed     97.33%
+  15  SLOCHN342_salty_MOTU15_HIG                                   0.16%    passed     99.25%
+  16  IZCASIA1686_brakish_MOTU16_HIG                               0.16%    passed     97.85%
+  17  SLOCHN101_fresh_MOTU17_TSG-2                                46.99%    passed     87.51%
+  18  IZCASIA1810_fresh_MOTU18_TSG-2                               0.16%    passed     99.10%
+  19  SLOCHN377_fresh_MOTU19_TSG-2                                 0.16%    passed     96.68%
+  20  SLOCHN370_brekish_MOTU20_TSG-2                               0.16%    passed     98.83%
+  21  10_fresh_MOTU21_TSG-2                                       48.39%    passed     91.22%
+  22  IZCASIA1189_fresh_MOTU22_NAG                                 0.16%    passed     99.60%
+  23  IZCASIA1260_salty_MOTU23_NAG                                18.47%    passed     92.90%
+  24  IZCASIA1389_fresh_MOTU24_NAG                                 0.16%    passed     99.59%
+  25  SLOCHN490_fresh_MOTU25_NAG                                   0.16%    passed     95.38%
+  26  11_fresh_MOTU26_NAG                                         55.73%    passed     93.66%
+  27  12_brekish_MOTU27_NAG                                       49.79%    passed     99.80%
+  28  13_brekish_MOTU28_NAG                                       49.79%    passed     99.76%
+  29  14_fresh_MOTU30_NAG                                         49.79%    passed     97.85%
+  30  15_fresh_MOTU31_NAG                                         49.79%    passed     99.40%
+  31  16_fresh_MOTU32_NAG                                         49.79%    passed     99.92%
+  32  IZCASIA1344_fresh_MOTU33_TSG-3                               0.16%    passed     97.64%
+  33  17_fresh_MOTU34_TSG-3                                       51.44%    passed     84.85%
+  34  SLOCHN359_fresh_MOTU35_TSG-3                                 0.16%    passed     91.40%
+  35  SLOCHN372_fresh_MOTU36_TSG-3                                 0.16%    passed     96.61%
+  36  IZCASIA1356_fresh_MOTU37_EAG                                 0.16%    passed     92.57%
+  37  IZCASIA1196_fresh_MOTU38_EAG                                 0.16%    passed     99.50%
+  38  IZCASIA2924_brackish_MOTU39_EAG                              0.16%    passed     96.58%
+  39  IZCASIA2924_brackish_MOTU40_EAG                              0.16%    passed     96.58%
+  40  IZCASIA1104_brackish_MOTU41_EAG                             67.68%    passed     74.20%
+  41  IZCASIA0696a_brackish_MOTU42_EAG                             0.16%    passed     92.33%
+  42  18_fresh_MOTU43_EAG                                         67.60%    passed     89.38%
+  43  IZCASIA0430_brackish_MOTU44_NTG                              0.16%    passed     96.60%
+  44  IZCASIA1670_brackish_MOTU45_NTG                              0.16%    passed     90.79%
+  45  IZCASIA0968_salty_MOTU46_NTG                                 0.16%    passed     95.63%
+  46  IZCASIA1671_salty_MOTU47_NTG                                 0.16%    passed     98.08%
+  47  IZCASIA1699_brackish_MOTU48_NTG                              0.16%    passed     93.53%
+  48  19_fresh_MOTU49_NTG                                         49.88%    passed     96.41%
+  49  IZCASIA0871_brackish_MOTU50_NTG                              0.16%    passed     97.94%
+  50  IZCASIA1933_fresh_MOTU51_NTG                                 0.16%    passed     97.94%
+  51  IZCASIA1635_brackish_MOTU52_NTG                              0.16%    passed     98.89%
+  52  IZCASIA1639_brackish_MOTU53_NTG                              0.41%    passed     89.97%
+  53  IZCASIA0436a_fresh_MOTU54_NTG                                0.16%    passed     93.69%
+  54  IZCASIA0436a_fresh_MOTU55_NTG                               50.37%    passed     84.17%
+  55  IZCASIA1669_salty_MOTU56_TSG-4                               0.16%    passed     98.99%
+  56  IZCASIA0426_fresh_MOTU57_TSG-4                              47.73%    passed     66.90%
+  57  SLOCHN364_brackish_MOTU58_TSG-4                             19.95%    passed     54.58%
+  58  SLOCHN368_fresh_MOTU59_TSG-4                                19.95%    passed     69.21%
+  59  SLOCHN363_fresh_MOTU60_TSG-4                                20.36%    passed     64.19%
+  60  SLOCHN236_fresh_MOTU61_TSG-4                                48.89%    passed      6.02%
+  61  IZCASIA2796_salty_MOTU63_STG                                21.60%    passed     65.07%
+  62  IZCASIA2800_salty_MOTU64_STG                                21.60%    passed     70.76%
+  63  IZCASIA2802_brackish_MOTU65_STG                              0.16%    passed     91.38%
+  64  IZCASIA2905_salty_MOTU66_STG                                 0.16%    passed     73.81%
+  65  IZCASIA2794_fresh_MOTU67_STG                                21.60%    passed     73.93%
+  66  IZCASIA1336_fresh_MOTU69_STG                                 0.16%    passed     94.31%
+  67  IZCASIA1051_fresh_MOTU70_STG                                 0.16%    passed     75.96%
+  68  IZCASIA1109_fresh_MOTU71_STG                                 0.16%    passed     53.96%
+  69  IZCASIA1335_fresh_MOTU74_STG                                47.73%    passed     86.94%
+  70  IZCASIA1071_fresh_MOTU75_STG                                50.04%    passed     69.34%
+  71  IZCASIA1072_fresh_MOTU76_STG                                47.57%    passed     93.51%
+  72  IZCASIA1111_fresh_MOTU77_STG                                 0.16%    passed     42.55%
+  73  IZCASIA1073_fresh_MOTU78_STG                                 0.16%    passed     62.37%
+  74  SLOCHN345_brackish_MOTU80_STG                               47.57%    passed     91.40%
+  75  20_fresh_MOTU81_STG                                         66.03%    failed      0.00%
+  76  SLOCHN075_fresh_MOTU83_EUG-2                                49.79%    passed     59.46%
+  77  SLOCHN161_fresh_MOTU84_EUG-2                                48.89%    passed     59.34%
+  78  SLOCHN168_salty_MOTU85_EUG-2                                46.99%    passed     89.14%
+  79  SLOCHN170_salty_MOTU86_EUG-2                                62.82%    passed     83.90%
+  80  SLOCHN442_fresh_MOTU87_EUG-2                                47.57%    passed     98.21%
+  81  SLOCHN351_salty_MOTU90_EUG-2                                66.28%    passed      6.79%
+  82  SLOCHN235_fresh_MOTU91_EUG-2                                47.16%    passed     53.54%
+  83  21_fresh_MOTU92_EUG-2                                       66.03%    failed      0.00%
+  84  22_fresh_MOTU93_EUG-2                                       66.03%    failed      0.00%
+  85  SLOCHN234_fresh_MOTU94_TSG-5                                46.99%    passed     35.69%
+  86  23_fresh_MOTU95_TSG-5                                       66.03%    failed      0.00%
+  87  SLOCHNN2TUM_fresh_MOTU96_TSG-5                              47.57%    passed     55.64%
+  88  SLOCHN515_fresh_MOTU97_TSG-5                                63.07%    passed     87.82%
+  89  SLOCHN343_fresh_MOTU98_TSG-5                                67.35%    passed     98.36%
+  90  IZCASIA0693A_fresh_MOTU99_TSG-5                              0.16%    passed     11.39%
+  91  SLOCHNTAD4_fresh_MOTU100_TSG-5                              46.99%    passed     33.95%
+  92  IZCASIA1347_salty_MOTU101_TSG-5                              0.16%    passed     21.72%
+  93  IZCASIA1981_fresh_MOTU102_TSG-5                             19.95%    passed     50.00%
+  94  IZCASIA1384_brackish_MOTU103_TSG-5                          18.47%    passed     39.96%
+  95  IZCASIA1386_brackish_MOTU104_TSG-5                          18.47%    passed     53.80%
+  96  SLOCHN371_fresh_MOTU105_TSG-5                               20.20%    passed     33.26%
+  97  IZCASIA0432_brackish_MOTU106_TSG-5                          74.77%    passed     73.98%
+  98  SLOCHN360_fresh_MOTU107_TSG-5                               76.01%    passed      5.45%
+  99  SLOCHN257_fresh_MOTU108_TSG-5                               66.36%    passed     36.23%
+ 100  SLOCHN174_fresh_MOTU109_TSG-5                               46.99%    passed     93.90%
+ 101  SLOCHN420_fresh_MOTU110_TSG-5                               47.57%    passed     94.93%
+ 102  SLOCHN198_fresh_MOTU111_TSG-5                               65.62%    failed      4.45%
+ 103  IZCASIA2008_brackish_MOTU112_TSG-5                          19.95%    passed     50.27%
+ 104  IZCASIA1996_fresh_MOTU113_TSG-5                             19.95%    passed     59.68%
+ 105  IZCASIA2018_fresh_MOTU114_TSG-5                             19.95%    passed     84.14%
+ 106  SLOCHNTAD2_fresh_MOTU115_TSG-5                              66.12%    passed     90.45%
+ 107  IZCASIA2011_brackish_MOTU116_TSG-5                          19.95%    passed     47.71%
+ 108  IZCASIA2010_fresh_MOTU118_TSG-5                             19.95%    passed     23.54%
+ 109  IZCASIA2001_brackish_MOTU119_TSG-5                          68.26%    failed      0.05%
+ 110  NuhuNur_brackish_Gammarus_lacustris_COI                     53.42%    passed     97.95%
+ 111  Kirenga_fresh_Gammarus_lacustris_COI                        54.41%    passed     97.20%
+ 112  Bormashovoe_salty_Gammarus_lacustris_COI                    53.42%    passed     93.03%
+ 113  NamishNur_brackish_Gammarus_lacustris_COI                   48.56%    passed     89.99%
+ 114  MK887756_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K12   46.50%    passed     97.37%
+ 115  MK887757_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K14   46.50%    passed     97.37%
+ 116  MK887758_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K15   46.50%    passed     97.37%
+ 117  MK887759_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K16   46.50%    passed     97.37%
+ 118  MK887760_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K17   46.50%    passed     97.37%
+ 119  MK887761_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K18   46.50%    passed     97.37%
+ 120  MK887762_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K19   46.50%    passed     99.15%
+ 121  MK887763_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K20   46.50%    passed     97.37%
+ 122  MK887764_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K21   46.50%    passed     97.37%
+ 123  PV701153_fresh_NuhuNur                                      53.42%    passed     97.95%
+ 124  PZ571254_fresh_NuhuNur2                                     47.82%    passed     91.27%
+ 125  PZ571460_fresh_NuhuNur_3                                    57.13%    passed     98.17%
+ 126  PZ580165_fresh_NuhuNur_4                                    47.73%    passed     95.22%
+ 127  PV701074_fresh_Kirenga                                      48.80%    passed     85.09%
+ 128  PV701177_brackish_Bormashovoe                               53.42%    passed     93.03%
+ 129  PZ724287_brackish_Bormashovoe_2                             48.56%    passed     89.20%
+ 130  PX022866_brackish_NamishNur                                 59.19%    passed     90.34%
+ 131  PZ571178_brackish_NamishNur_1                               51.11%    passed     91.72%
+ 132  PZ571183_brackish_NamishNur_2                               50.29%    passed     87.06%
+ 133  PZ575596_brackish_NamishNur_4                               52.60%    passed     94.74%
+ 134  PZ567386_fresh_Angara_2                                     50.21%    passed     98.84%
+ 135  PZ575575_fresh_Maloe_1                                      47.24%    passed     86.55%
+ 136  PZ575582_freshMaloe_2                                       51.85%    passed     91.00%
+ 137  PZ576045_fresh_Maloe_3                                      52.02%    passed     94.71%
+WARNING: 38 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                       32.69%  7 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file iqtree_table_salt/EF1a_lacustris_HOU_table_salt.fa.aln.trim ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 39 sequences with 547 columns, 120 distinct patterns
+32 parsimony-informative, 24 singleton sites, 491 constant sites
+                                    Gap/Ambiguity  Composition  p-value
+   1  SLOCHN001_fresh_MOTU1_EUG-1           1.46%    passed     99.90%
+   2  SLOCHN249_fresh_MOTU9_TSG-1           0.00%    passed     98.11%
+   3  IZCASIA1952_fresh_MOTU14_HIG          0.73%    passed     99.98%
+   4  IZCASIA1686_brakish_MOTU16_HIG        0.00%    passed     99.74%
+   5  IZCASIA1810_fresh_MOTU18_TSG-2        0.00%    passed     99.96%
+   6  IZCASIA1189_fresh_MOTU22_NAG          3.11%    passed     97.89%
+   7  IZCASIA1344_fresh_MOTU33_TSG-3        5.30%    passed     98.56%
+   8  IZCASIA1356_fresh_MOTU37_EAG          6.95%    passed     94.21%
+   9  IZCASIA1196_fresh_MOTU38_EAG          1.10%    passed     99.26%
+  10  IZCASIA2924_brackish_MOTU39_EAG       0.37%    passed     99.99%
+  11  IZCASIA2924_brackish_MOTU40_EAG       0.37%    passed     99.99%
+  12  IZCASIA0696a_brackish_MOTU42_EAG      0.18%    passed     99.81%
+  13  IZCASIA1670_brackish_MOTU45_NTG       0.73%    passed     99.25%
+  14  IZCASIA0968_salty_MOTU46_NTG          0.00%    passed     98.24%
+  15  IZCASIA1671_salty_MOTU47_NTG          0.73%    passed     99.76%
+  16  IZCASIA1933_fresh_MOTU51_NTG          0.73%    passed     99.90%
+  17  IZCASIA1639_brackish_MOTU53_NTG       0.00%    passed     99.88%
+  18  IZCASIA1669_salty_MOTU56_TSG-4        0.00%    passed     99.05%
+  19  SLOCHN236_fresh_MOTU61_TSG-4          1.10%    passed     99.48%
+  20  IZCASIA2796_salty_MOTU63_STG          0.91%    passed     98.25%
+  21  IZCASIA2800_salty_MOTU64_STG          1.10%    passed     98.73%
+  22  IZCASIA2802_brackish_MOTU65_STG       1.10%    passed     98.73%
+  23  IZCASIA2905_salty_MOTU66_STG          0.73%    passed     99.66%
+  24  IZCASIA2794_fresh_MOTU67_STG          1.28%    passed     98.90%
+  25  IZCASIA1335_fresh_MOTU74_STG          0.00%    passed     99.53%
+  26  IZCASIA1071_fresh_MOTU75_STG          0.73%    passed     97.87%
+  27  SLOCHN161_fresh_MOTU84_EUG-2          1.65%    passed     99.29%
+  28  SLOCHN168_salty_MOTU85_EUG-2          1.10%    passed     99.87%
+  29  SLOCHN170_salty_MOTU86_EUG-2          4.75%    passed     99.63%
+  30  SLOCHN235_fresh_MOTU91_EUG-2          0.73%    passed     99.85%
+  31  SLOCHN234_fresh_MOTU94_TSG-5          0.91%    passed     98.98%
+  32  IZCASIA0693A_fresh_MOTU99_TSG-5       1.83%    passed     98.11%
+  33  SLOCHNTAD4_fresh_MOTU100_TSG-5        0.55%    passed     96.63%
+  34  IZCASIA1347_salty_MOTU101_TSG-5       0.91%    passed     97.75%
+  35  IZCASIA1384_brackish_MOTU103_TSG-5    1.10%    passed     98.07%
+  36  IZCASIA1386_brackish_MOTU104_TSG-5    0.73%    passed     98.45%
+  37  SLOCHN174_fresh_MOTU109_TSG-5        56.67%    passed     50.22%
+  38  SLOCHN198_fresh_MOTU111_TSG-5         1.10%    passed     99.65%
+  39  SLOCHNTAD2_fresh_MOTU115_TSG-5        1.10%    passed     99.92%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                 2.61%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file iqtree_table_salt/HSP70_lacustris_HOU_table_salt.fa.aln.trim ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 29 sequences with 420 columns, 74 distinct patterns
+15 parsimony-informative, 13 singleton sites, 392 constant sites
+                                 Gap/Ambiguity  Composition  p-value
+   1  SLOCHN001_fresh_MOTU1_EUG-1        2.86%    passed     99.71%
+   2  SLOCHN249_fresh_MOTU9_TSG-1        0.48%    passed     99.92%
+   3  IZCASIA1686_brakish_MOTU16_HIG     0.95%    passed     99.93%
+   4  SLOCHN101_fresh_MOTU17_TSG-2       0.71%    passed     99.84%
+   5  IZCASIA1189_fresh_MOTU22_NAG       0.24%    passed     99.91%
+   6  IZCASIA1344_fresh_MOTU33_TSG-3     0.00%    passed     99.78%
+   7  IZCASIA1356_fresh_MOTU37_EAG       1.19%    passed    100.00%
+   8  IZCASIA1196_fresh_MOTU38_EAG       2.38%    passed     99.63%
+   9  IZCASIA2924_brackish_MOTU39_EAG    0.24%    passed     99.91%
+  10  IZCASIA2924_brackish_MOTU40_EAG    0.24%    passed     99.91%
+  11  IZCASIA1670_brackish_MOTU45_NTG    1.43%    passed     99.97%
+  12  IZCASIA0968_salty_MOTU46_NTG       0.00%    passed     99.80%
+  13  IZCASIA1671_salty_MOTU47_NTG       0.24%    passed     99.91%
+  14  IZCASIA1699_brackish_MOTU48_NTG    0.48%    passed     99.95%
+  15  IZCASIA1635_brackish_MOTU52_NTG    1.43%    passed     99.84%
+  16  IZCASIA1639_brackish_MOTU53_NTG    0.48%    passed     99.95%
+  17  IZCASIA1669_salty_MOTU56_TSG-4     1.19%    passed     99.65%
+  18  SLOCHN236_fresh_MOTU61_TSG-4       3.57%    passed     99.91%
+  19  IZCASIA2796_salty_MOTU63_STG       3.10%    passed     92.86%
+  20  IZCASIA2802_brackish_MOTU65_STG    3.10%    passed     91.58%
+  21  IZCASIA2905_salty_MOTU66_STG       0.71%    passed     99.92%
+  22  IZCASIA2794_fresh_MOTU67_STG       2.86%    passed     98.93%
+  23  IZCASIA1336_fresh_MOTU69_STG       0.71%    passed     98.84%
+  24  IZCASIA1109_fresh_MOTU71_STG       0.71%    passed     97.79%
+  25  IZCASIA1335_fresh_MOTU74_STG       0.71%    passed     98.75%
+  26  IZCASIA1071_fresh_MOTU75_STG       0.48%    passed     95.50%
+  27  IZCASIA1072_fresh_MOTU76_STG       0.48%    passed     99.08%
+  28  IZCASIA1111_fresh_MOTU77_STG       1.19%    passed     99.34%
+  29  IZCASIA0693A_fresh_MOTU99_TSG-5    0.48%    passed     98.50%
+****  TOTAL                              1.12%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file iqtree_table_salt/PEPCK_lacustris_HOU_table_salt.fa.aln.trim ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 39 sequences with 559 columns, 120 distinct patterns
+37 parsimony-informative, 44 singleton sites, 478 constant sites
+                                    Gap/Ambiguity  Composition  p-value
+   1  SLOCHN001_fresh_MOTU1_EUG-1           0.00%    passed     99.45%
+   2  IZCASIA1686_brakish_MOTU16_HIG        0.00%    passed     99.75%
+   3  SLOCHN101_fresh_MOTU17_TSG-2          0.36%    passed     99.78%
+   4  IZCASIA1189_fresh_MOTU22_NAG          0.00%    passed     99.79%
+   5  IZCASIA1344_fresh_MOTU33_TSG-3        0.18%    passed     99.71%
+   6  IZCASIA1356_fresh_MOTU37_EAG          0.18%    passed     99.89%
+   7  IZCASIA1196_fresh_MOTU38_EAG          2.50%    passed     99.96%
+   8  IZCASIA0696a_brackish_MOTU42_EAG      0.36%    passed     99.66%
+   9  IZCASIA1670_brackish_MOTU45_NTG       0.18%    passed     99.89%
+  10  IZCASIA0968_salty_MOTU46_NTG          0.00%    passed     99.98%
+  11  IZCASIA1671_salty_MOTU47_NTG          0.00%    passed     99.98%
+  12  IZCASIA1699_brackish_MOTU48_NTG       0.18%    passed     99.97%
+  13  IZCASIA0871_brackish_MOTU50_NTG       0.00%    passed     99.98%
+  14  IZCASIA1635_brackish_MOTU52_NTG       0.18%    passed     99.50%
+  15  IZCASIA1639_brackish_MOTU53_NTG       0.00%    passed     99.79%
+  16  IZCASIA1669_salty_MOTU56_TSG-4        0.00%    passed     99.59%
+  17  IZCASIA2796_salty_MOTU63_STG          3.04%    passed     98.72%
+  18  IZCASIA2800_salty_MOTU64_STG          4.11%    passed     96.35%
+  19  IZCASIA2802_brackish_MOTU65_STG       2.68%    passed     98.94%
+  20  IZCASIA2905_salty_MOTU66_STG          0.00%    passed     99.59%
+  21  IZCASIA1336_fresh_MOTU69_STG         42.04%    passed     49.59%
+  22  IZCASIA1051_fresh_MOTU70_STG          0.18%    passed     99.89%
+  23  IZCASIA1109_fresh_MOTU71_STG          0.00%    passed     99.98%
+  24  IZCASIA1335_fresh_MOTU74_STG          0.00%    passed     99.98%
+  25  IZCASIA1071_fresh_MOTU75_STG          0.00%    passed     99.75%
+  26  IZCASIA1072_fresh_MOTU76_STG          0.00%    passed     99.98%
+  27  IZCASIA1111_fresh_MOTU77_STG         61.54%    passed     69.98%
+  28  IZCASIA1073_fresh_MOTU78_STG          0.00%    passed     99.94%
+  29  SLOCHN168_salty_MOTU85_EUG-2          0.00%    passed     99.75%
+  30  SLOCHN235_fresh_MOTU91_EUG-2          0.18%    passed     99.09%
+  31  SLOCHN234_fresh_MOTU94_TSG-5          0.00%    passed     99.82%
+  32  IZCASIA0693A_fresh_MOTU99_TSG-5       0.00%    passed     99.98%
+  33  SLOCHNTAD4_fresh_MOTU100_TSG-5        0.18%    passed     99.94%
+  34  IZCASIA1347_salty_MOTU101_TSG-5      54.03%    passed     36.49%
+  35  IZCASIA1384_brackish_MOTU103_TSG-5    0.00%    passed     95.33%
+  36  IZCASIA1386_brackish_MOTU104_TSG-5    0.00%    passed     96.33%
+  37  SLOCHN174_fresh_MOTU109_TSG-5         0.00%    passed     98.09%
+  38  SLOCHN198_fresh_MOTU111_TSG-5         0.36%    passed     98.22%
+  39  SLOCHNTAD2_fresh_MOTU115_TSG-5        0.00%    passed     99.86%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                 4.42%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file iqtree_table_salt/S12_16_lacustris_HOU_table_salt.fa.aln.trim ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 74 sequences with 944 columns, 574 distinct patterns
+410 parsimony-informative, 266 singleton sites, 268 constant sites
+                                    Gap/Ambiguity  Composition  p-value
+   1  SLOCHN001_fresh_MOTU1_EUG-1           0.00%    passed     91.26%
+   2  SLOCHN375_salty_MOTU10_TSG-1          0.11%    passed     94.49%
+   3  IZCASIA1087_fresh_MOTU11_HIG          0.00%    passed     98.54%
+   4  IZCASIA2906_fresh_MOTU12_HIG          0.32%    passed     89.06%
+   5  IZCASIA1259_brackish_MOTU13_HIG      59.32%    passed     88.58%
+   6  IZCASIA1952_fresh_MOTU14_HIG          0.00%    passed     94.57%
+   7  SLOCHN342_salty_MOTU15_HIG            0.00%    passed     99.86%
+   8  IZCASIA1686_brakish_MOTU16_HIG        0.00%    passed     95.84%
+   9  IZCASIA1810_fresh_MOTU18_TSG-2        0.00%    passed     99.33%
+  10  SLOCHN377_fresh_MOTU19_TSG-2          0.00%    passed     98.56%
+  11  SLOCHN370_brekish_MOTU20_TSG-2        0.00%    passed     98.12%
+  12  IZCASIA1189_fresh_MOTU22_NAG          0.00%    passed     99.85%
+  13  IZCASIA1260_salty_MOTU23_NAG         59.32%    passed     82.34%
+  14  IZCASIA1389_fresh_MOTU24_NAG          0.00%    passed     98.12%
+  15  SLOCHN490_fresh_MOTU25_NAG            0.00%    passed     96.81%
+  16  25_fresh_MOTU26_NAG                  59.32%    passed     92.92%
+  17  26_brekish_MOTU27_NAG                60.17%    passed     82.34%
+  18  27_brekish_MOTU28_NAG                59.32%    passed     94.52%
+  19  28_fresh_MOTU30_NAG                  59.85%    passed     88.05%
+  20  29_fresh_MOTU31_NAG                  59.43%    passed     87.91%
+  21  30_fresh_MOTU32_NAG                  59.32%    passed     92.00%
+  22  IZCASIA1344_fresh_MOTU33_TSG-3        0.00%    passed     98.95%
+  23  SLOCHN359_fresh_MOTU35_TSG-3          0.00%    passed     99.26%
+  24  SLOCHN372_fresh_MOTU36_TSG-3          0.00%    passed     97.38%
+  25  IZCASIA1356_fresh_MOTU37_EAG          0.00%    passed     95.46%
+  26  IZCASIA1196_fresh_MOTU38_EAG          0.00%    passed     99.06%
+  27  IZCASIA2924_brackish_MOTU39_EAG       0.00%    passed     98.00%
+  28  IZCASIA2924_brackish_MOTU40_EAG       0.00%    passed     98.00%
+  29  IZCASIA1104_brackish_MOTU41_EAG       0.00%    passed     98.74%
+  30  IZCASIA0696a_brackish_MOTU42_EAG      0.00%    passed     74.12%
+  31  31_fresh_MOTU43_EAG                  51.06%    passed     73.81%
+  32  IZCASIA0430_brackish_MOTU44_NTG      23.52%    passed     96.65%
+  33  IZCASIA1670_brackish_MOTU45_NTG       0.00%    passed     97.45%
+  34  IZCASIA0968_salty_MOTU46_NTG          2.97%    passed     84.20%
+  35  IZCASIA1671_salty_MOTU47_NTG          0.00%    passed     94.86%
+  36  IZCASIA1699_brackish_MOTU48_NTG       3.28%    passed     83.59%
+  37  32_fresh_MOTU49_NTG                  38.24%    passed     59.22%
+  38  IZCASIA0871_brackish_MOTU50_NTG       0.00%    passed     98.00%
+  39  IZCASIA1933_fresh_MOTU51_NTG          0.00%    passed     96.81%
+  40  IZCASIA1635_brackish_MOTU52_NTG       0.00%    passed     99.38%
+  41  IZCASIA1639_brackish_MOTU53_NTG       0.00%    passed     94.46%
+  42  IZCASIA0436a_fresh_MOTU54_NTG         0.00%    passed     97.05%
+  43  IZCASIA0436a_fresh_MOTU55_NTG        19.92%    failed      0.00%
+  44  IZCASIA1669_salty_MOTU56_TSG-4        0.11%    passed     80.48%
+  45  SLOCHN364_brackish_MOTU58_TSG-4       0.00%    passed     64.34%
+  46  SLOCHN368_fresh_MOTU59_TSG-4          0.00%    passed     75.44%
+  47  SLOCHN363_fresh_MOTU60_TSG-4          0.00%    passed     63.86%
+  48  IZCASIA2796_salty_MOTU63_STG          0.00%    passed     46.70%
+  49  IZCASIA2800_salty_MOTU64_STG          0.00%    passed     29.11%
+  50  IZCASIA2802_brackish_MOTU65_STG       0.00%    passed     46.70%
+  51  IZCASIA2905_salty_MOTU66_STG          0.11%    passed     30.62%
+  52  IZCASIA2794_fresh_MOTU67_STG          0.00%    passed     50.00%
+  53  IZCASIA1336_fresh_MOTU69_STG          0.00%    passed     48.66%
+  54  IZCASIA1051_fresh_MOTU70_STG          0.00%    passed     70.42%
+  55  IZCASIA1109_fresh_MOTU71_STG          0.00%    passed     28.16%
+  56  IZCASIA0572_fresh_MOTU72_STG          1.38%    passed     26.20%
+  57  IZCASIA1335_fresh_MOTU74_STG          0.00%    passed     90.50%
+  58  IZCASIA1071_fresh_MOTU75_STG          0.00%    passed     96.41%
+  59  IZCASIA1072_fresh_MOTU76_STG          0.00%    passed     92.88%
+  60  IZCASIA1111_fresh_MOTU77_STG          0.00%    passed     99.53%
+  61  IZCASIA1073_fresh_MOTU78_STG          0.00%    passed     96.38%
+  62  SLOCHN442_fresh_MOTU87_EUG-2          0.21%    passed     96.22%
+  63  SLOCHN343_fresh_MOTU98_TSG-5          0.00%    passed     33.01%
+  64  IZCASIA1347_salty_MOTU101_TSG-5       0.21%    passed     54.10%
+  65  IZCASIA1981_fresh_MOTU102_TSG-5       0.21%    passed     78.35%
+  66  IZCASIA1384_brackish_MOTU103_TSG-5    0.00%    passed     54.69%
+  67  IZCASIA1386_brackish_MOTU104_TSG-5    0.00%    passed     85.02%
+  68  SLOCHN371_fresh_MOTU105_TSG-5         0.00%    passed     81.66%
+  69  IZCASIA0432_brackish_MOTU106_TSG-5    0.11%    passed     85.44%
+  70  SLOCHN360_fresh_MOTU107_TSG-5         0.74%    failed      0.10%
+  71  IZCASIA2008_brackish_MOTU112_TSG-5    0.00%    passed     87.80%
+  72  IZCASIA1996_fresh_MOTU113_TSG-5       0.32%    passed     54.98%
+  73  IZCASIA2010_fresh_MOTU118_TSG-5       0.32%    passed     87.21%
+  74  IZCASIA2001_brackish_MOTU119_TSG-5    0.32%    failed      2.35%
+WARNING: 9 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                 8.37%  3 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file iqtree_table_salt/S28_lacustris_HOU_table_salt.fa.aln.trim ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 95 sequences with 1240 columns, 188 distinct patterns
+93 parsimony-informative, 65 singleton sites, 1082 constant sites
+                                    Gap/Ambiguity  Composition  p-value
+   1  SLOCHN001_fresh_MOTU1_EUG-1           0.00%    passed     99.89%
+   2  SLOCHN473_fresh_MOTU4_EUG-1           0.00%    passed     99.99%
+   3  SLOCHN249_fresh_MOTU9_TSG-1           0.00%    passed     99.98%
+   4  SLOCHN375_salty_MOTU10_TSG-1          0.00%    passed     99.98%
+   5  IZCASIA1087_fresh_MOTU11_HIG          0.00%    passed     99.62%
+   6  IZCASIA2906_fresh_MOTU12_HIG          0.00%    passed     99.10%
+   7  IZCASIA1259_brackish_MOTU13_HIG       0.00%    passed     99.86%
+   8  IZCASIA1952_fresh_MOTU14_HIG          0.00%    passed     99.97%
+   9  SLOCHN342_salty_MOTU15_HIG            0.00%    passed     99.89%
+  10  IZCASIA1686_brakish_MOTU16_HIG        0.00%    passed     99.86%
+  11  SLOCHN101_fresh_MOTU17_TSG-2          0.00%    passed     99.92%
+  12  IZCASIA1810_fresh_MOTU18_TSG-2        0.00%    passed     99.89%
+  13  SLOCHN377_fresh_MOTU19_TSG-2          0.00%    passed     99.89%
+  14  SLOCHN370_brekish_MOTU20_TSG-2        0.00%    passed     99.98%
+  15  IZCASIA1189_fresh_MOTU22_NAG          0.00%    passed     99.98%
+  16  IZCASIA1260_salty_MOTU23_NAG          0.00%    passed     99.86%
+  17  IZCASIA1389_fresh_MOTU24_NAG          0.08%    passed     99.96%
+  18  SLOCHN490_fresh_MOTU25_NAG            0.00%    passed     99.98%
+  19  1_brekish_MOTU27_NAG                  0.00%    passed     99.98%
+  20  2_fresh_MOTU30_NAG                    0.00%    passed     99.98%
+  21  IZCASIA1344_fresh_MOTU33_TSG-3        0.00%    passed     99.92%
+  22  SLOCHN359_fresh_MOTU35_TSG-3          0.00%    passed     99.92%
+  23  SLOCHN372_fresh_MOTU36_TSG-3          0.00%    passed     99.92%
+  24  IZCASIA1356_fresh_MOTU37_EAG          0.00%    passed     99.92%
+  25  IZCASIA1196_fresh_MOTU38_EAG          0.00%    passed     99.92%
+  26  IZCASIA2924_brackish_MOTU39_EAG       0.00%    passed     99.92%
+  27  IZCASIA2924_brackish_MOTU40_EAG       0.00%    passed     99.92%
+  28  IZCASIA1104_brackish_MOTU41_EAG       0.00%    passed     99.92%
+  29  IZCASIA0696a_brackish_MOTU42_EAG      0.08%    passed     99.97%
+  30  IZCASIA0430_brackish_MOTU44_NTG       0.00%    passed     99.73%
+  31  IZCASIA1670_brackish_MOTU45_NTG       0.00%    passed     99.89%
+  32  IZCASIA0968_salty_MOTU46_NTG          0.00%    passed     99.86%
+  33  IZCASIA1671_salty_MOTU47_NTG          1.94%    passed     99.58%
+  34  IZCASIA1699_brackish_MOTU48_NTG       0.00%    passed     99.86%
+  35  IZCASIA0871_brackish_MOTU50_NTG       0.00%    passed     99.86%
+  36  IZCASIA1933_fresh_MOTU51_NTG          0.00%    passed     99.97%
+  37  IZCASIA1635_brackish_MOTU52_NTG       0.00%    passed     99.92%
+  38  IZCASIA1639_brackish_MOTU53_NTG       0.00%    passed     99.98%
+  39  IZCASIA0436a_fresh_MOTU54_NTG         0.00%    passed     99.92%
+  40  IZCASIA0436a_fresh_MOTU55_NTG         9.52%    passed     95.38%
+  41  IZCASIA1669_salty_MOTU56_TSG-4        0.00%    passed     99.89%
+  42  IZCASIA0426_fresh_MOTU57_TSG-4        0.00%    passed     98.57%
+  43  SLOCHN364_brackish_MOTU58_TSG-4       0.00%    passed     97.74%
+  44  SLOCHN368_fresh_MOTU59_TSG-4          0.00%    passed     98.02%
+  45  SLOCHN363_fresh_MOTU60_TSG-4          0.00%    passed     98.04%
+  46  SLOCHN236_fresh_MOTU61_TSG-4          0.00%    passed     99.98%
+  47  IZCASIA2796_salty_MOTU63_STG          0.00%    passed     99.56%
+  48  IZCASIA2800_salty_MOTU64_STG          0.00%    passed     99.56%
+  49  IZCASIA2802_brackish_MOTU65_STG       0.00%    passed     99.56%
+  50  IZCASIA2905_salty_MOTU66_STG          0.56%    passed     98.81%
+  51  IZCASIA2794_fresh_MOTU67_STG          0.00%    passed     99.87%
+  52  IZCASIA1336_fresh_MOTU69_STG          0.00%    passed     99.71%
+  53  IZCASIA1051_fresh_MOTU70_STG          0.08%    passed     99.71%
+  54  IZCASIA1109_fresh_MOTU71_STG          0.08%    passed     99.81%
+  55  IZCASIA0572_fresh_MOTU72_STG          0.00%    passed     99.85%
+  56  IZCASIA1167_fresh_MOTU73_STG         22.18%    passed     93.12%
+  57  IZCASIA1335_fresh_MOTU74_STG          0.00%    passed     99.38%
+  58  IZCASIA1071_fresh_MOTU75_STG          0.00%    passed     99.99%
+  59  IZCASIA1072_fresh_MOTU76_STG          0.00%    passed     99.31%
+  60  IZCASIA1111_fresh_MOTU77_STG          0.08%    passed     99.08%
+  61  IZCASIA1073_fresh_MOTU78_STG          0.08%    passed     99.08%
+  62  SLOCHN345_brackish_MOTU80_STG         0.00%    passed     97.53%
+  63  3_fresh_MOTU81_STG                   39.60%    passed     66.51%
+  64  SLOCHN075_fresh_MOTU83_EUG-2          0.00%    passed     99.99%
+  65  SLOCHN161_fresh_MOTU84_EUG-2          0.08%    passed     99.47%
+  66  SLOCHN168_salty_MOTU85_EUG-2          0.00%    passed     97.21%
+  67  SLOCHN170_salty_MOTU86_EUG-2          0.00%    passed     99.82%
+  68  SLOCHN442_fresh_MOTU87_EUG-2          0.08%    passed     99.28%
+  69  SLOCHN351_salty_MOTU90_EUG-2          0.56%    passed    100.00%
+  70  SLOCHN235_fresh_MOTU91_EUG-2          0.00%    passed     98.09%
+  71  SLOCHN234_fresh_MOTU94_TSG-5          0.00%    passed     98.35%
+  72  SLOCHNN2TUM_fresh_MOTU96_TSG-5        0.00%    passed     99.99%
+  73  SLOCHN515_fresh_MOTU97_TSG-5          0.00%    passed     99.98%
+  74  SLOCHN343_fresh_MOTU98_TSG-5          0.08%    passed     99.12%
+  75  IZCASIA0693A_fresh_MOTU99_TSG-5       0.08%    passed     99.51%
+  76  SLOCHNTAD4_fresh_MOTU100_TSG-5        0.00%    passed     99.90%
+  77  IZCASIA1347_salty_MOTU101_TSG-5       0.00%    passed     99.57%
+  78  IZCASIA1981_fresh_MOTU102_TSG-5       0.08%    passed     99.79%
+  79  IZCASIA1384_brackish_MOTU103_TSG-5    0.00%    passed     99.71%
+  80  IZCASIA1386_brackish_MOTU104_TSG-5    0.00%    passed     99.56%
+  81  SLOCHN371_fresh_MOTU105_TSG-5         0.00%    passed     99.86%
+  82  IZCASIA0432_brackish_MOTU106_TSG-5    0.00%    passed     99.56%
+  83  SLOCHN360_fresh_MOTU107_TSG-5         0.00%    passed     99.86%
+  84  SLOCHN257_fresh_MOTU108_TSG-5         0.00%    passed     98.50%
+  85  SLOCHN174_fresh_MOTU109_TSG-5         0.00%    passed     99.96%
+  86  SLOCHN420_fresh_MOTU110_TSG-5         0.00%    passed     99.99%
+  87  SLOCHN198_fresh_MOTU111_TSG-5         0.00%    passed     99.18%
+  88  IZCASIA2008_brackish_MOTU112_TSG-5    0.00%    passed     98.70%
+  89  IZCASIA1996_fresh_MOTU113_TSG-5       0.00%    passed     98.74%
+  90  IZCASIA2018_fresh_MOTU114_TSG-5       0.00%    passed     98.74%
+  91  SLOCHNTAD2_fresh_MOTU115_TSG-5        0.00%    passed     98.20%
+  92  IZCASIA2011_brackish_MOTU116_TSG-5    0.00%    passed     99.96%
+  93  SLOCHN350_fresh_MOTU117_TSG-5         0.32%    passed     99.50%
+  94  IZCASIA2010_fresh_MOTU118_TSG-5       0.00%    passed     99.72%
+  95  IZCASIA2001_brackish_MOTU119_TSG-5    0.00%    passed     99.98%
+****  TOTAL                                 0.80%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1	DNA	35	676	27	599	GTR+I+G	AK_lacustris_HOU_table_salt.fa.aln.trim
+2	DNA	52	519	199	291	GTR+I+G	COIII_lacustris_HOU_table_salt.fa.aln.trim
+3	DNA	137	1213	585	318	GTR+I+G	COI_lacustris_HOU_table_salt.fa.aln.trim
+4	DNA	39	547	32	491	GTR+I+G	EF1a_lacustris_HOU_table_salt.fa.aln.trim
+5	DNA	29	420	15	392	GTR+I+G	HSP70_lacustris_HOU_table_salt.fa.aln.trim
+6	DNA	39	559	37	478	GTR+I+G	PEPCK_lacustris_HOU_table_salt.fa.aln.trim
+7	DNA	74	944	410	268	GTR+I+G	S12_16_lacustris_HOU_table_salt.fa.aln.trim
+8	DNA	95	1240	93	1082	SYM+I+G	S28_lacustris_HOU_table_salt.fa.aln.trim
+Degree of missing data: 0.502
+Info: multi-threading strategy over partitions
+
+NOTE: IZCASIA2924_brackish_MOTU40_EAG is identical to IZCASIA2924_brackish_MOTU39_EAG but kept for subsequent analysis
+NOTE: PV701153_fresh_NuhuNur is identical to NuhuNur_brackish_Gammarus_lacustris_COI but kept for subsequent analysis
+NOTE: PV701177_brackish_Bormashovoe is identical to Bormashovoe_salty_Gammarus_lacustris_COI but kept for subsequent analysis
+NOTE: MK887757_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K14 is identical to MK887756_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K12 but kept for subsequent analysis
+NOTE: 2_fresh_MOTU30_NAG is identical to 1_brekish_MOTU27_NAG but kept for subsequent analysis
+NOTE: 6 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: MK887758_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K15 (identical to MK887756_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K12) is ignored but added at the end
+NOTE: MK887759_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K16 (identical to MK887756_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K12) is ignored but added at the end
+NOTE: MK887760_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K17 (identical to MK887756_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K12) is ignored but added at the end
+NOTE: MK887761_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K18 (identical to MK887756_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K12) is ignored but added at the end
+NOTE: MK887763_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K20 (identical to MK887756_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K12) is ignored but added at the end
+NOTE: MK887764_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K21 (identical to MK887756_fresh_Gammarus_lacustris_voucher_Gla_Lake_14_K12) is ignored but added at the end
+Alignment was printed to example.nex.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to example.nex.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.047 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 707311)...
+
+NOTE: 34 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -52800.982
+Current log-likelihood at step 1: -46545.254
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 2: -46227.144
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 3: -46195.814
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 4: -46183.849
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 5: -46175.799
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 6: -46169.836
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 7: -46165.373
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 8: -46161.999
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 9: -46159.720
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 10: -46158.145
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 11: -46157.051
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 12: -46156.214
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 13: -46155.514
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 14: -46154.905
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 15: -46154.349
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 16: -46153.787
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 17: -46153.208
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 18: -46152.580
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 19: -46151.891
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 20: -46151.124
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 21: -46150.256
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 22: -46149.247
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 23: -46148.129
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 24: -46146.866
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 25: -46145.434
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 26: -46143.796
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 27: -46142.004
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 28: -46140.131
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 29: -46138.437
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 30: -46137.341
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 31: -46136.856
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 32: -46136.703
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 33: -46136.630
+Partition-specific rates:  0.095 1.907 2.128 0.100 0.186 0.160 2.260 0.102
+Parameters optimization took 32 rounds (8.466 sec)
+
+Computing ML distances based on estimated model parameters... 0.402 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.009 seconds
+Log-likelihood of BIONJ tree: -49713.065
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 5.230 second
+Computing log-likelihood of 98 initial trees ... 4.939 seconds
+Current best score: -46136.630
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -46081.304
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 1: -46080.905
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 2: -46080.852
+Parameters optimization took 1 rounds (0.445 sec)
+
+BETTER TREE FOUND at iteration 1: -46080.852
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -46017.318
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 1: -46016.694
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 2: -46016.652
+Parameters optimization took 1 rounds (0.422 sec)
+
+BETTER TREE FOUND at iteration 2: -46016.652
+Iteration 10 / LogL: -46019.248 / Time: 0h:0m:53s
+Iteration 20 / LogL: -46032.387 / Time: 0h:1m:24s
+Finish initializing candidate tree set (20)
+Current best tree score: -46016.652 / CPU time: 74.927
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -46012.607
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 1: -46012.304
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 2: -46012.266
+Parameters optimization took 1 rounds (0.408 sec)
+
+BETTER TREE FOUND at iteration 22: -46012.266
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -46011.789
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 1: -46011.680
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 2: -46011.642
+Parameters optimization took 1 rounds (0.425 sec)
+
+BETTER TREE FOUND at iteration 28: -46011.642
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -46007.658
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 1: -46007.309
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 2: -46007.240
+Parameters optimization took 1 rounds (0.507 sec)
+
+BETTER TREE FOUND at iteration 30: -46007.240
+Iteration 30 / LogL: -46007.240 / Time: 0h:1m:59s (0h:6m:50s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -46002.493
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 1: -46002.340
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 2: -46002.308
+Parameters optimization took 1 rounds (0.437 sec)
+
+BETTER TREE FOUND at iteration 34: -46002.308
+Iteration 40 / LogL: -46004.643 / Time: 0h:2m:24s (0h:5m:47s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -45999.637
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 1: -45999.467
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 2: -45999.443
+Parameters optimization took 1 rounds (0.461 sec)
+
+BETTER TREE FOUND at iteration 45: -45999.443
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -45997.603
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 1: -45997.197
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 2: -45997.161
+Parameters optimization took 1 rounds (0.482 sec)
+
+BETTER TREE FOUND at iteration 46: -45997.161
+Iteration 50 / LogL: -45997.197 / Time: 0h:2m:50s (0h:5m:33s left)
+Log-likelihood cutoff on original alignment: -46103.279
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -45987.560
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 1: -45987.058
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 2: -45987.029
+Parameters optimization took 1 rounds (0.471 sec)
+
+BETTER TREE FOUND at iteration 57: -45987.029
+Iteration 60 / LogL: -46068.010 / Time: 0h:3m:18s (0h:5m:27s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -45982.084
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 1: -45981.778
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 2: -45981.749
+Parameters optimization took 1 rounds (0.466 sec)
+
+BETTER TREE FOUND at iteration 69: -45981.749
+Iteration 70 / LogL: -45982.181 / Time: 0h:3m:47s (0h:5m:26s left)
+Iteration 80 / LogL: -45990.757 / Time: 0h:4m:12s (0h:4m:44s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -45980.713
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 1: -45980.646
+Parameters optimization took 0 rounds (0.201 sec)
+
+BETTER TREE FOUND at iteration 84: -45980.646
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -45980.555
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 1: -45980.498
+Parameters optimization took 0 rounds (0.207 sec)
+
+BETTER TREE FOUND at iteration 89: -45980.498
+Iteration 90 / LogL: -45981.014 / Time: 0h:4m:39s (0h:5m:10s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -45979.181
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 1: -45979.097
+Parameters optimization took 0 rounds (0.199 sec)
+
+BETTER TREE FOUND at iteration 93: -45979.097
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -45978.630
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 1: -45978.476
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 2: -45978.456
+Parameters optimization took 1 rounds (0.455 sec)
+
+BETTER TREE FOUND at iteration 99: -45978.456
+Iteration 100 / LogL: -45980.664 / Time: 0h:5m:8s (0h:5m:8s left)
+Log-likelihood cutoff on original alignment: -46103.279
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.934
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -45971.386
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 1: -45971.145
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 2: -45971.128
+Parameters optimization took 1 rounds (0.434 sec)
+
+BETTER TREE FOUND at iteration 108: -45971.128
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -45970.222
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 1: -45970.146
+Parameters optimization took 0 rounds (0.202 sec)
+
+BETTER TREE FOUND at iteration 109: -45970.146
+Iteration 110 / LogL: -45983.333 / Time: 0h:5m:41s (0h:5m:10s left)
+Iteration 120 / LogL: -45980.694 / Time: 0h:6m:10s (0h:4m:37s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -45970.125
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 1: -45970.065
+Parameters optimization took 0 rounds (0.206 sec)
+
+BETTER TREE FOUND at iteration 126: -45970.065
+Iteration 130 / LogL: -45970.152 / Time: 0h:6m:40s (0h:4m:57s left)
+Iteration 140 / LogL: -45970.308 / Time: 0h:7m:8s (0h:4m:25s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -45970.044
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 1: -45969.995
+Parameters optimization took 0 rounds (0.199 sec)
+
+BETTER TREE FOUND at iteration 142: -45969.995
+Iteration 150 / LogL: -45970.031 / Time: 0h:7m:44s (0h:4m:46s left)
+Log-likelihood cutoff on original alignment: -46103.279
+Iteration 160 / LogL: -45972.441 / Time: 0h:8m:27s (0h:4m:21s left)
+Iteration 170 / LogL: -45977.966 / Time: 0h:9m:2s (0h:3m:51s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -45968.947
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 1: -45968.894
+Parameters optimization took 0 rounds (0.197 sec)
+
+BETTER TREE FOUND at iteration 173: -45968.894
+Iteration 180 / LogL: -45982.657 / Time: 0h:9m:28s (0h:4m:55s left)
+Iteration 190 / LogL: -46032.153 / Time: 0h:9m:54s (0h:4m:21s left)
+BETTER TREE FOUND at iteration 193: -45968.887
+Iteration 200 / LogL: -45972.185 / Time: 0h:10m:25s (0h:4m:52s left)
+Log-likelihood cutoff on original alignment: -46095.176
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.944
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -45970.083 / Time: 0h:10m:52s (0h:4m:41s left)
+Iteration 220 / LogL: -45975.096 / Time: 0h:11m:19s (0h:4m:8s left)
+Iteration 230 / LogL: -45968.893 / Time: 0h:11m:47s (0h:3m:36s left)
+Iteration 240 / LogL: -45975.238 / Time: 0h:12m:13s (0h:3m:4s left)
+Iteration 250 / LogL: -46017.530 / Time: 0h:12m:38s (0h:2m:32s left)
+Log-likelihood cutoff on original alignment: -46095.176
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -45968.841
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 1: -45968.773
+Parameters optimization took 0 rounds (0.204 sec)
+
+BETTER TREE FOUND at iteration 252: -45968.773
+Iteration 260 / LogL: -45968.904 / Time: 0h:13m:3s (0h:4m:38s left)
+Iteration 270 / LogL: -45968.890 / Time: 0h:13m:33s (0h:4m:7s left)
+Iteration 280 / LogL: -45982.738 / Time: 0h:13m:59s (0h:3m:36s left)
+Iteration 290 / LogL: -45968.783 / Time: 0h:14m:22s (0h:3m:4s left)
+Iteration 300 / LogL: -45971.467 / Time: 0h:14m:47s (0h:2m:34s left)
+Log-likelihood cutoff on original alignment: -46095.176
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.987
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -45968.758
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 1: -45968.712
+Parameters optimization took 0 rounds (0.199 sec)
+
+BETTER TREE FOUND at iteration 306: -45968.712
+Iteration 310 / LogL: -45968.782 / Time: 0h:15m:12s (0h:4m:43s left)
+Iteration 320 / LogL: -45968.762 / Time: 0h:15m:37s (0h:4m:12s left)
+Iteration 330 / LogL: -45968.943 / Time: 0h:16m:5s (0h:3m:42s left)
+Iteration 340 / LogL: -45968.793 / Time: 0h:16m:33s (0h:3m:13s left)
+Iteration 350 / LogL: -45973.235 / Time: 0h:16m:56s (0h:2m:43s left)
+Log-likelihood cutoff on original alignment: -46095.176
+Iteration 360 / LogL: -45969.562 / Time: 0h:17m:21s (0h:2m:13s left)
+Iteration 370 / LogL: -45971.474 / Time: 0h:17m:47s (0h:1m:44s left)
+Iteration 380 / LogL: -45973.015 / Time: 0h:18m:11s (0h:1m:14s left)
+Iteration 390 / LogL: -45985.313 / Time: 0h:18m:34s (0h:0m:45s left)
+Iteration 400 / LogL: -45971.591 / Time: 0h:18m:58s (0h:0m:17s left)
+Log-likelihood cutoff on original alignment: -46095.176
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.983
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 410 / LogL: -45977.553 / Time: 0h:19m:25s (0h:4m:16s left)
+Iteration 420 / LogL: -45971.534 / Time: 0h:19m:50s (0h:3m:47s left)
+Iteration 430 / LogL: -46034.849 / Time: 0h:20m:14s (0h:3m:18s left)
+Iteration 440 / LogL: -45968.758 / Time: 0h:20m:41s (0h:2m:49s left)
+Iteration 450 / LogL: -46289.520 / Time: 0h:21m:4s (0h:2m:20s left)
+Log-likelihood cutoff on original alignment: -46095.176
+Iteration 460 / LogL: -45968.743 / Time: 0h:21m:32s (0h:1m:52s left)
+Iteration 470 / LogL: -45976.469 / Time: 0h:21m:56s (0h:1m:24s left)
+Iteration 480 / LogL: -45973.588 / Time: 0h:22m:22s (0h:0m:56s left)
+Iteration 490 / LogL: -45971.435 / Time: 0h:22m:52s (0h:0m:28s left)
+Iteration 500 / LogL: -45968.758 / Time: 0h:23m:15s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -46095.176
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.970
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 510 / LogL: -45998.631 / Time: 0h:23m:43s (0h:4m:11s left)
+Iteration 520 / LogL: -45968.722 / Time: 0h:24m:6s (0h:3m:42s left)
+Iteration 530 / LogL: -45970.988 / Time: 0h:24m:30s (0h:3m:14s left)
+Iteration 540 / LogL: -45976.346 / Time: 0h:24m:54s (0h:2m:46s left)
+Iteration 550 / LogL: -45969.574 / Time: 0h:25m:18s (0h:2m:18s left)
+Log-likelihood cutoff on original alignment: -46095.176
+Iteration 560 / LogL: -46059.197 / Time: 0h:25m:43s (0h:1m:50s left)
+Iteration 570 / LogL: -45968.802 / Time: 0h:26m:9s (0h:1m:22s left)
+Iteration 580 / LogL: -45973.327 / Time: 0h:26m:35s (0h:0m:55s left)
+Iteration 590 / LogL: -45969.579 / Time: 0h:27m:0s (0h:0m:27s left)
+Iteration 600 / LogL: -46097.473 / Time: 0h:27m:25s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -46095.176
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.977
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 610 / LogL: -45969.870 / Time: 0h:27m:50s (0h:4m:6s left)
+Iteration 620 / LogL: -45968.868 / Time: 0h:28m:14s (0h:3m:38s left)
+Iteration 630 / LogL: -45971.402 / Time: 0h:28m:39s (0h:3m:11s left)
+Iteration 640 / LogL: -45968.769 / Time: 0h:29m:1s (0h:2m:43s left)
+Iteration 650 / LogL: -45969.836 / Time: 0h:29m:28s (0h:2m:16s left)
+Log-likelihood cutoff on original alignment: -46095.176
+Iteration 660 / LogL: -45974.248 / Time: 0h:29m:55s (0h:1m:48s left)
+Iteration 670 / LogL: -45968.857 / Time: 0h:30m:16s (0h:1m:21s left)
+Iteration 680 / LogL: -45969.560 / Time: 0h:30m:41s (0h:0m:54s left)
+Iteration 690 / LogL: -45968.969 / Time: 0h:31m:4s (0h:0m:27s left)
+Iteration 700 / LogL: -45972.880 / Time: 0h:31m:27s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -46095.176
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.985
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 710 / LogL: -45986.252 / Time: 0h:31m:52s (0h:4m:2s left)
+Iteration 720 / LogL: -45993.254 / Time: 0h:32m:20s (0h:3m:35s left)
+Iteration 730 / LogL: -45968.723 / Time: 0h:32m:44s (0h:3m:8s left)
+Iteration 740 / LogL: -45974.930 / Time: 0h:33m:11s (0h:2m:41s left)
+Iteration 750 / LogL: -45980.537 / Time: 0h:33m:38s (0h:2m:14s left)
+Log-likelihood cutoff on original alignment: -46095.176
+Iteration 760 / LogL: -45969.817 / Time: 0h:34m:7s (0h:1m:47s left)
+Iteration 770 / LogL: -45968.755 / Time: 0h:34m:34s (0h:1m:20s left)
+Iteration 780 / LogL: -45973.192 / Time: 0h:35m:0s (0h:0m:53s left)
+Iteration 790 / LogL: -45968.740 / Time: 0h:35m:29s (0h:0m:26s left)
+Iteration 800 / LogL: -45977.918 / Time: 0h:35m:56s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -46095.176
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.987
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 810 / LogL: -45978.089 / Time: 0h:36m:20s (0h:4m:2s left)
+Iteration 820 / LogL: -45968.722 / Time: 0h:36m:45s (0h:3m:35s left)
+Iteration 830 / LogL: -45968.897 / Time: 0h:37m:12s (0h:3m:8s left)
+Iteration 840 / LogL: -45973.179 / Time: 0h:37m:34s (0h:2m:41s left)
+Iteration 850 / LogL: -46043.174 / Time: 0h:37m:56s (0h:2m:14s left)
+Log-likelihood cutoff on original alignment: -46095.176
+Iteration 860 / LogL: -45975.008 / Time: 0h:38m:24s (0h:1m:47s left)
+Iteration 870 / LogL: -45968.758 / Time: 0h:38m:48s (0h:1m:20s left)
+Iteration 880 / LogL: -46008.371 / Time: 0h:39m:13s (0h:0m:53s left)
+Iteration 890 / LogL: -45968.743 / Time: 0h:39m:37s (0h:0m:26s left)
+Iteration 900 / LogL: -45968.767 / Time: 0h:40m:0s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -46095.176
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.989
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 910 / LogL: -45968.764 / Time: 0h:40m:23s (0h:3m:59s left)
+Iteration 920 / LogL: -45972.030 / Time: 0h:40m:46s (0h:3m:32s left)
+Iteration 930 / LogL: -45971.984 / Time: 0h:41m:11s (0h:3m:6s left)
+Iteration 940 / LogL: -46270.642 / Time: 0h:41m:34s (0h:2m:39s left)
+Iteration 950 / LogL: -45973.166 / Time: 0h:41m:57s (0h:2m:12s left)
+Log-likelihood cutoff on original alignment: -46095.176
+Iteration 960 / LogL: -45973.499 / Time: 0h:42m:22s (0h:1m:46s left)
+Iteration 970 / LogL: -45968.771 / Time: 0h:42m:49s (0h:1m:19s left)
+Iteration 980 / LogL: -45992.126 / Time: 0h:43m:13s (0h:0m:52s left)
+Iteration 990 / LogL: -45994.835 / Time: 0h:43m:37s (0h:0m:26s left)
+Iteration 1000 / LogL: -45971.118 / Time: 0h:44m:2s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -46095.176
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+TREE SEARCH COMPLETED AFTER 1000 ITERATIONS / Time: 0h:44m:3s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -45968.712
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 1: -45968.701
+WARNING: Too high (saturated) partition rates for proportional partition model!
+Current log-likelihood at step 2: -45968.693
+Partition-specific rates:  0.096 1.911 2.096 0.088 0.182 0.156 2.311 0.102
+Parameters optimization took 1 rounds (0.395 sec)
+
+Partition information was printed to example.nex.best_model.nex
+BEST SCORE FOUND : -45968.693
+Creating bootstrap support values...
+Split supports printed to NEXUS file example.nex.splits.nex
+Total tree length: 19.698
+
+Total number of iterations: 1000
+CPU time used for tree search: 2527.362 sec (0h:42m:7s)
+Wall-clock time used for tree search: 2633.249 sec (0h:43m:53s)
+Total CPU time used: 2537.746 sec (0h:42m:17s)
+Total wall-clock time used: 2643.786 sec (0h:44m:3s)
+
+Computing bootstrap consensus tree...
+Reading input file example.nex.splits.nex...
+145 taxa and 2192 splits.
+Consensus tree written to example.nex.contree
+Reading input trees file example.nex.contree
+Log-likelihood of consensus tree: -45968.831
+
+Analysis results written to: 
+  IQ-TREE report:                example.nex.iqtree
+  Maximum-likelihood tree:       example.nex.treefile
+  Likelihood distances:          example.nex.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          example.nex.splits.nex
+  Consensus tree:                example.nex.contree
+  Screen log file:               example.nex.log
+
+Date and Time: Tue Sep  8 12:43:00 2026

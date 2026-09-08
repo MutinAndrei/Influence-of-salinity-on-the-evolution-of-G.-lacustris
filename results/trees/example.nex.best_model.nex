@@ -1,0 +1,20 @@
+#nexus
+begin sets;
+  charset AK_lacustris_HOU_table_salt.fa.aln.trim = iqtree_table_salt/AK_lacustris_HOU_table_salt.fa.aln.trim: ;
+  charset COIII_lacustris_HOU_table_salt.fa.aln.trim = iqtree_table_salt/COIII_lacustris_HOU_table_salt.fa.aln.trim: ;
+  charset COI_lacustris_HOU_table_salt.fa.aln.trim = iqtree_table_salt/COI_lacustris_HOU_table_salt.fa.aln.trim: ;
+  charset EF1a_lacustris_HOU_table_salt.fa.aln.trim = iqtree_table_salt/EF1a_lacustris_HOU_table_salt.fa.aln.trim: ;
+  charset HSP70_lacustris_HOU_table_salt.fa.aln.trim = iqtree_table_salt/HSP70_lacustris_HOU_table_salt.fa.aln.trim: ;
+  charset PEPCK_lacustris_HOU_table_salt.fa.aln.trim = iqtree_table_salt/PEPCK_lacustris_HOU_table_salt.fa.aln.trim: ;
+  charset S12_16_lacustris_HOU_table_salt.fa.aln.trim = iqtree_table_salt/S12_16_lacustris_HOU_table_salt.fa.aln.trim: ;
+  charset S28_lacustris_HOU_table_salt.fa.aln.trim = iqtree_table_salt/S28_lacustris_HOU_table_salt.fa.aln.trim: ;
+  charpartition mymodels =
+    GTR{3.00507,3.80578,2.89409,0.339413,13.6999}+F{0.214422,0.32298,0.255202,0.207396}+I{0.523746}+G4{2.22766}: AK_lacustris_HOU_table_salt.fa.aln.trim{0.149459},
+    GTR{1.22558,10.3752,0.946537,0.792987,6.64926}+F{0.256604,0.25343,0.165102,0.324865}+I{0.521697}+G4{1.36595}: COIII_lacustris_HOU_table_salt.fa.aln.trim{3.13021},
+    GTR{1.51736,12.996,1.28856,1.34996,9.32135}+F{0.235492,0.21808,0.207492,0.338936}+I{7.43659e-06}+G4{0.340668}: COI_lacustris_HOU_table_salt.fa.aln.trim{41.0295},
+    GTR{0.783695,15.4451,1.34267,0.92468,22.361}+F{0.265722,0.24341,0.268032,0.222835}+I{0.54197}+G4{0.0200391}: EF1a_lacustris_HOU_table_salt.fa.aln.trim{0.607024},
+    GTR{1.48309,4.70228,2.59132,1.08878,6.7011}+F{0.266934,0.239608,0.272777,0.220681}+I{0.719619}+G4{0.0200208}: HSP70_lacustris_HOU_table_salt.fa.aln.trim{1.06682},
+    GTR{1.03392,2.6788,0.87602,0.574644,5.8951}+F{0.262194,0.243548,0.245986,0.248271}+I{0.562065}+G4{0.718748}: PEPCK_lacustris_HOU_table_salt.fa.aln.trim{0.244281},
+    GTR{0.674241,4.12047,0.533866,1.29691,7.51632}+F{0.339831,0.110655,0.215621,0.333893}+I{0.0032673}+G4{0.479201}: S12_16_lacustris_HOU_table_salt.fa.aln.trim{5.73329},
+    SYM{0.315031,2.62673,0.994141,0.2344,3.94826}+FQ+I{0.786124}+G4{0.360126}: S28_lacustris_HOU_table_salt.fa.aln.trim{0.943112};
+end;

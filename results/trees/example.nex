@@ -1,0 +1,20 @@
+#nexus
+begin sets;
+    charset AK_lacustris_HOU_table_salt.fa.aln.trim = iqtree_table_salt/AK_lacustris_HOU_table_salt.fa.aln.trim: ;
+    charset COIII_lacustris_HOU_table_salt.fa.aln.trim = iqtree_table_salt/COIII_lacustris_HOU_table_salt.fa.aln.trim: ;
+    charset COI_lacustris_HOU_table_salt.fa.aln.trim = iqtree_table_salt/COI_lacustris_HOU_table_salt.fa.aln.trim: ;
+    charset EF1a_lacustris_HOU_table_salt.fa.aln.trim = iqtree_table_salt/EF1a_lacustris_HOU_table_salt.fa.aln.trim: ;
+    charset HSP70_lacustris_HOU_table_salt.fa.aln.trim = iqtree_table_salt/HSP70_lacustris_HOU_table_salt.fa.aln.trim: ;
+    charset PEPCK_lacustris_HOU_table_salt.fa.aln.trim = iqtree_table_salt/PEPCK_lacustris_HOU_table_salt.fa.aln.trim: ;
+    charset S12_16_lacustris_HOU_table_salt.fa.aln.trim = iqtree_table_salt/S12_16_lacustris_HOU_table_salt.fa.aln.trim: ;
+    charset S28_lacustris_HOU_table_salt.fa.aln.trim = iqtree_table_salt/S28_lacustris_HOU_table_salt.fa.aln.trim: ;
+    charpartition mine = 
+        GTR+I+G:AK_lacustris_HOU_table_salt.fa.aln.trim,
+        GTR+I+G:COIII_lacustris_HOU_table_salt.fa.aln.trim, 
+        GTR+I+G:COI_lacustris_HOU_table_salt.fa.aln.trim, 
+        GTR+I+G:EF1a_lacustris_HOU_table_salt.fa.aln.trim, 
+        GTR+I+G:HSP70_lacustris_HOU_table_salt.fa.aln.trim, 
+        GTR+I+G:PEPCK_lacustris_HOU_table_salt.fa.aln.trim, 
+        GTR+I+G:S12_16_lacustris_HOU_table_salt.fa.aln.trim, 
+        SYM+I+G:S28_lacustris_HOU_table_salt.fa.aln.trim;
+end;
