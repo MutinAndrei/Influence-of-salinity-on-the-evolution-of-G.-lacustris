@@ -67,14 +67,18 @@ For tree visualization, the R programming language (v4.5.0) and the following pa
 - tidyverse (v2.0.0)
 - ggtree (v3.16.0)
 - ape (v5.8-1)
+- geosphere (v1.6-8)
+- vegan (v2.7-6)
+- ecodist (2.1.3)
+- openxlsx (v4.2.8)
 - ggplot2 (v4.0.1)
 - dplyr (v1.1.4)
 - stringr (v1.5.1)
-
+- phytools (2.5-2)
 
 ### 3. **Running commands**
 
-3.1. **Cycle MAFFT (version 7.490) alignment**
+3.1. **Cycle MAFFT alignment**
 
 Navigate to the `/data/raw_seq` folder and run the following command:
 
@@ -86,7 +90,7 @@ The execution of this command will result in the creation of `.aln` files in the
 
 3.2. **Trim alignment cycle**
 
-After that, trim the alignment using the following command (specifying the path to the TrimAl (version 1.5) program beforehand):
+After that, trim the alignment using the following command (specifying the path to the TrimAl program beforehand):
 
 ```
 for x in *.aln; do /path/to/trimal -in $x -out $x.trim -automated1; done
@@ -102,7 +106,7 @@ Move the resulting `.trim` files into the directory named Trim_file
 	
 Next, navigate to the `partitions` folder and copy the file `example.nex` into the `raw_seq` directory.
 
-3.4. **Building a tree with IQ-TREE (version 2.0.7)**
+3.4. **Building a tree with IQ-TREE**
 
 To build the phylogenetic tree, run the command:
 
@@ -111,6 +115,23 @@ iqtree2 -p Trim_file/ -p 8genes_partitions.nex -B 1000
 ```
 
 The main result of executing this command will be the generation of a number of tree files, the primary one being the file with the `.treefile` extension.
+
+Note: Sample table 
+
+| Source               | Number of sequences |         
+|----------------------|---------------------|
+| This study           | 15                  |
+| Gurkov et al. (2019) | 9                   |
+| Hou et al. (2022)    | 127                 |
+| **Total**            | **151**             |           
+
+
+| Salinity category | Number of sequences |
+|-------------------|---------------------|
+| Fresh             | 102                 |
+| Brackish          | 35                  |
+| Salty             | 14                  |
+| **Total**         | **151**             |
 
 ### 4. Tree visualization
 
