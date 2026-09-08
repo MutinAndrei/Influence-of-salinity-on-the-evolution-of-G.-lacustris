@@ -37,7 +37,7 @@ The repository includes:
 | **This study** | Partition file with substitution models from [**Hou et al. (2022)**](https://onlinelibrary.wiley.com/doi/full/10.1111/gcb.16160) | [partitions](https://github.com/MutinAndrei/Influence-of-salinity-on-the-evolution-of-G.-lacustris/tree/main/data/partitions) |
 | **This study** | FASTA files for each gene containing sequences from [**Hou et al. (2022)**](https://onlinelibrary.wiley.com/doi/full/10.1111/gcb.16160), [**Gurkov et al. (2019)**](https://doi.org/10.1186/s12862-019-1470-8), and this study | [raw_seq](https://github.com/MutinAndrei/Influence-of-salinity-on-the-evolution-of-G.-lacustris/tree/main/data/raw_seq) |
 | **This study** | Final aligned and trimmed sequences | [alignments](https://github.com/MutinAndrei/Influence-of-salinity-on-the-evolution-of-G.-lacustris/tree/main/results/alignments) |
-| **This study** | Phylogenetic tree images in PNG and SVG formats used in this study | [Figures](https://github.com/MutinAndrei/Influence-of-salinity-on-the-evolution-of-G.-lacustris/tree/main/results/Figures) |
+| **This study** | Phylogenetic tree images in PNG and SVG formats used in this study | [Figure](https://github.com/MutinAndrei/Influence-of-salinity-on-the-evolution-of-G.-lacustris/tree/main/results/Figure) |
 | **This study** | Phylogenetic tree generation files used in this study | [trees](https://github.com/MutinAndrei/Influence-of-salinity-on-the-evolution-of-G.-lacustris/tree/main/results/trees) |
 | **This study** | BASH script for generating the phylogenetic tree, R script for retrieving FASTA sequence files from GenBank, R script for visualizing phylogenetic trees | [scripts](https://github.com/MutinAndrei/Influence-of-salinity-on-the-evolution-of-G.-lacustris/tree/main/scripts) |
 
