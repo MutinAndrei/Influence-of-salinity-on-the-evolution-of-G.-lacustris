@@ -120,6 +120,9 @@ The main result of executing this command will be the generation of a number of 
 
 4.3. The result of executing the script will be phylogenetic tree images in PNG and SVG formats.
 
+### 5. Statistical analysis
+
+5.1. To perform the statistical analysis, take the scripts `IBD_script.R` and `Blomberg_K_and_Pagel.R` from the `scripts` folder and place them in the same directory as the `.treefile` tree file.
 
 ## 📬 Contacts
 
