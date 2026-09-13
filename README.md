@@ -143,7 +143,7 @@ Note: Sample table
 
 ### 5. Statistical analysis
 
-5.1. To perform the statistical analysis, take the scripts `IBD_script.R` and `Blomberg_K_and_Pagel.R` from the `scripts` folder and place them in the same directory as the `.treefile` tree file.
+5.1. To perform the statistical analysis, take the scripts `IBD_script.R` and `PERMANOVA_scripts.R` from the `scripts` folder and place them in the same directory as the `.treefile` tree file.
 
 ## 📬 Contacts
 
